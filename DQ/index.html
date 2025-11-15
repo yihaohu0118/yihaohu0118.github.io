@@ -4,111 +4,203 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DQ-Net: Dynamic Quadruped Grasping</title>
+
+  <!-- Google Fonts（可选，不想用可以删掉这三行） -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="page">
 
-<!-- Header -->
-<header class="header">
-  <h1>Whole-Body Coordination for Dynamic Object Grasping with Legged Manipulators</h1>
-  <p class="authors">
-    <strong><a href="https://kolakivy.github.io" target="_blank">Qiwei Liang</a></strong>, 
-    Boyang Cai, 
-    Rongyi He, 
-    Hui Li, 
-    Tao Teng, 
-    <a href="https://duanhaihan.github.io/" target="_blank">Haihan Duan</a>, 
-    Changxin Huang, 
-    <strong><a href="https://zengrunhao.com/" target="_blank">Runhao Zeng</a><strong>*
-  </p>
-  <p>Hong Kong University of Science and Technology (Guangzhou), Shenzhen University, T-Stone Robotics Institute (CUHK), Shenzhen MSU-BIT University</p>
-  <img src="images/logo.png" alt="images/logo.png" class="center-img" width="400">
-  <div class="links">
-    <a href="https://arxiv.org/pdf/2508.08328" target="_blank">📄 PDF</a>
-    <a href="https://arxiv.org/abs/2508.08328" target="_blank">💻 arXiv</a>
-  </div>
-  <style>
-    .authors, 
-    .authors a {
-      color: inherit; 
-    }
-    .authors a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</header>
+  <!-- 顶部 Hero 区 -->
+  <header class="hero">
+    <div class="hero-bg"></div>
 
-<!-- Abstract -->
-<section>
-  <h2>Abstract</h2>
-  <p>
-    We introduce <strong>DQ-Bench</strong>, the first benchmark for dynamic object grasping with quadruped robots, supporting realistic dynamics, diverse objects, multi-level task difficulty, and comprehensive evaluation. 
-    Building upon this benchmark, we propose <strong>DQ-Net</strong>, a teacher–student framework combining a Grasp Fusion Module and lightweight dual-view student network for stable and efficient whole-body dynamic grasping. 
-    Extensive experiments show DQ-Net outperforms baselines in both success rate and responsiveness.
-  </p>
-</section>
+    <div class="hero-content">
+      <div class="hero-badge">DQ-Net · DQ-Bench</div>
 
-<!-- Benchmark -->
-<section>
-  <h2>DQ-Bench</h2>
-  <ul>
-    <li>Built on Isaac Gym for high-performance simulation.</li>
-    <li>Four difficulty levels: Low-Speed 2D → High-Speed 3D with rough terrain.</li>
-    <li>Diverse seen/unseen YCB objects for generalization testing.</li>
-    <li>Evaluation metrics: <strong>GSR</strong>, <strong>OSSR</strong>, <strong>TSC</strong>.</li>
-  </ul>
-  <img src="images/benchmark_levels.png" alt="DQ-Bench Task Levels" class="center-img">
-</section>
+      <h1 class="hero-title">
+        Whole-Body Coordination for Dynamic Object Grasping with Legged Manipulators
+      </h1>
 
-<!-- Method -->
-<section>
-  <h2>DQ-Net Framework</h2>
-  <p>
-    DQ-Net integrates a <strong>Grasp Fusion Module (GFM)</strong> with a hierarchical teacher–student structure:
-  </p>
-  <ol>
-    <li><strong>Teacher:</strong> Uses privileged info (pose, velocity, point cloud) + GFM to output optimal grasp poses.</li>
-    <li><strong>Student:</strong> Lightweight Transformer-based network with dual-perspective depth & mask inputs.</li>
-    <li>Low-level controller ensures coordinated locomotion and manipulation.</li>
-  </ol>
-  <img src="images/dqnet_architecture.png" alt="DQ-Net Architecture" class="center-img">
-</section>
+      <p class="hero-subtitle">
+        Dynamic quadruped grasping with whole-body coordination, benchmarked on <strong>DQ-Bench</strong> and powered by <strong>DQ-Net</strong>.
+      </p>
 
-<!-- Results -->
-<section>
-  <h2>Results</h2>
-  <p>DQ-Net achieves the highest grasp success rates across all difficulty levels and unseen object categories.</p>
-  <img src="images/table_gsr.png" alt="Grasp Success Rate Table" class="center-img">
-  <img src="images/unseen_objects.png" alt="Unseen Objects Performance" class="center-img">
-  <img src="images/qualitative.png" alt="Qualitative Comparison" class="center-img">
-</section>
+      <p class="authors">
+        <strong><a href="https://kolakivy.github.io" target="_blank">Qiwei Liang</a></strong>, 
+        Boyang Cai, 
+        Rongyi He, 
+        Hui Li, 
+        Tao Teng, 
+        <a href="https://duanhaihan.github.io/" target="_blank">Haihan Duan</a>, 
+        Changxin Huang, 
+        <strong><a href="https://zengrunhao.com/" target="_blank">Runhao Zeng</a></strong>*
+      </p>
 
-<!-- Video -->
-<section>
-  <h2>Video</h2>
-  <iframe width="560" height="315" src="video/demo.mp4" frameborder="0" allowfullscreen></iframe>
-</section>
+      <p class="affiliations">
+        Hong Kong University of Science and Technology (Guangzhou), Shenzhen University,<br>
+        T-Stone Robotics Institute (CUHK), Shenzhen MSU-BIT University
+      </p>
 
-<!-- Citation -->
-<section>
-  <h2>Citation</h2>
-  <pre>
+      <div class="hero-actions">
+        <a class="btn primary" href="https://arxiv.org/pdf/2508.08328" target="_blank">📄 Paper (PDF)</a>
+        <a class="btn secondary" href="https://arxiv.org/abs/2508.08328" target="_blank">💻 arXiv Page</a>
+      </div>
+
+      <div class="hero-meta">
+        <span class="meta-pill">Robotics · Legged Manipulation</span>
+        <span class="meta-pill">Dynamic Grasping</span>
+        <span class="meta-pill">Teacher–Student Learning</span>
+      </div>
+    </div>
+
+    <div class="hero-logo">
+      <div class="hero-logo-card">
+        <img src="images/logo.png" alt="DQ-Net Logo" class="hero-logo-img">
+      </div>
+    </div>
+  </header>
+
+  <!-- 主体内容 -->
+  <main class="content">
+
+    <!-- 导航锚点小条（不想要可以整个删掉） -->
+    <nav class="section-nav">
+      <a href="#abstract">Abstract</a>
+      <a href="#benchmark">DQ-Bench</a>
+      <a href="#method">DQ-Net</a>
+      <a href="#results">Results</a>
+      <a href="#video">Video</a>
+      <a href="#citation">Citation</a>
+    </nav>
+
+    <!-- Abstract -->
+    <section id="abstract" class="section-card">
+      <div class="section-header">
+        <h2>Abstract</h2>
+        <span class="section-tag">Overview</span>
+      </div>
+      <p>
+        We introduce <strong>DQ-Bench</strong>, the first benchmark for dynamic object grasping with quadruped robots, 
+        supporting realistic dynamics, diverse objects, multi-level task difficulty, and comprehensive evaluation.
+        Building upon this benchmark, we propose <strong>DQ-Net</strong>, a teacher–student framework combining a Grasp Fusion Module
+        and lightweight dual-view student network for stable and efficient whole-body dynamic grasping.
+        Extensive experiments show DQ-Net outperforms baselines in both success rate and responsiveness.
+      </p>
+    </section>
+
+    <!-- Benchmark -->
+    <section id="benchmark" class="section-card section-with-media">
+      <div class="section-text">
+        <div class="section-header">
+          <h2>DQ-Bench</h2>
+          <span class="section-tag accent">Benchmark</span>
+        </div>
+        <ul class="fancy-list">
+          <li>Built on <strong>Isaac Gym</strong> for high-performance simulation.</li>
+          <li>Four difficulty levels: <strong>Low-Speed 2D → High-Speed 3D with rough terrain</strong>.</li>
+          <li>Diverse seen/unseen <strong>YCB objects</strong> for generalization testing.</li>
+          <li>Evaluation metrics: <strong>GSR</strong>, <strong>OSSR</strong>, <strong>TSC</strong>.</li>
+        </ul>
+      </div>
+      <div class="section-media">
+        <img src="images/benchmark_levels.png" alt="DQ-Bench Task Levels" class="img-elevated">
+      </div>
+    </section>
+
+    <!-- Method -->
+    <section id="method" class="section-card section-with-media reverse">
+      <div class="section-text">
+        <div class="section-header">
+          <h2>DQ-Net Framework</h2>
+          <span class="section-tag">Method</span>
+        </div>
+        <p>
+          DQ-Net integrates a <strong>Grasp Fusion Module (GFM)</strong> with a hierarchical teacher–student structure:
+        </p>
+        <ol class="fancy-ol">
+          <li><strong>Teacher:</strong> Uses privileged info (pose, velocity, point cloud) + GFM to output optimal grasp poses.</li>
+          <li><strong>Student:</strong> Lightweight Transformer-based network with dual-perspective depth &amp; mask inputs.</li>
+          <li><strong>Low-level controller:</strong> Ensures coordinated locomotion and manipulation.</li>
+        </ol>
+      </div>
+      <div class="section-media">
+        <img src="images/dqnet_architecture.png" alt="DQ-Net Architecture" class="img-elevated">
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="results" class="section-card">
+      <div class="section-header">
+        <h2>Results</h2>
+        <span class="section-tag accent">Experiments</span>
+      </div>
+      <p>
+        DQ-Net achieves the highest grasp success rates across all difficulty levels and unseen object categories.
+      </p>
+
+      <div class="results-grid">
+        <figure class="result-item">
+          <img src="images/table_gsr.png" alt="Grasp Success Rate Table" class="img-elevated">
+          <figcaption>Grasp Success Rate (GSR) across difficulty levels.</figcaption>
+        </figure>
+
+        <figure class="result-item">
+          <img src="images/unseen_objects.png" alt="Unseen Objects Performance" class="img-elevated">
+          <figcaption>Generalization to unseen objects on DQ-Bench.</figcaption>
+        </figure>
+
+        <figure class="result-item wide">
+          <img src="images/qualitative.png" alt="Qualitative Comparison" class="img-elevated">
+          <figcaption>Qualitative comparison between DQ-Net and baselines.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Video -->
+    <section id="video" class="section-card">
+      <div class="section-header">
+        <h2>Video</h2>
+        <span class="section-tag">Demo</span>
+      </div>
+      <div class="video-wrapper">
+        <video controls>
+          <source src="video/demo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <!-- Citation -->
+    <section id="citation" class="section-card">
+      <div class="section-header">
+        <h2>Citation</h2>
+        <span class="section-tag">BibTeX</span>
+      </div>
+      <pre class="code-block">
 @misc{liang2025wholebodycoordinationdynamicobject,
-      title={Whole-Body Coordination for Dynamic Object Grasping with Legged Manipulators}, 
-      author={Qiwei Liang and Boyang Cai and Rongyi He and Hui Li and Tao Teng and Haihan Duan and Changxin Huang and Runhao Zeng},
-      year={2025},
-      eprint={2508.08328},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2508.08328}, 
+  title         = {Whole-Body Coordination for Dynamic Object Grasping with Legged Manipulators},
+  author        = {Qiwei Liang and Boyang Cai and Rongyi He and Hui Li and 
+                   Tao Teng and Haihan Duan and Changxin Huang and Runhao Zeng},
+  year          = {2025},
+  eprint        = {2508.08328},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  url           = {https://arxiv.org/abs/2508.08328}
 }
-  </pre>
-</section>
+      </pre>
+    </section>
+  </main>
 
-<!-- Footer -->
-<footer>
-  <p>© 2025 Qiwei Liang et al. All rights reserved.</p>
-</footer>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Qiwei Liang et al. All rights reserved.</p>
+  </footer>
 
+</div>
 </body>
 </html>
