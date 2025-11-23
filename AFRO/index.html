@@ -6,13 +6,13 @@
     <title>AFRO: Bootstrap Dynamic-Aware 3D Visual Representation</title>
     <meta name="description" content="Project page for AFRO: Bootstrap Dynamic-Aware 3D Visual Representation for Scalable Robot Learning">
     
-    <!-- Google Fonts for a modern look -->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
         :root {
             --primary-color: #2563eb; /* Bright Blue */
-            --secondary-color: #1e40af; /* Darker Blue for hover */
+            --secondary-color: #1e40af; /* Darker Blue */
             --text-color: #1f2937; /* Dark Gray */
             --light-gray: #f3f4f6;
             --white: #ffffff;
@@ -36,21 +36,30 @@
         }
 
         .text-center { text-align: center; }
+        
         .section-title {
             font-size: 2rem;
             font-weight: 700;
-            margin-bottom: 1.5rem;
-            margin-top: 3rem;
+            margin-bottom: 2rem;
+            margin-top: 4rem;
             color: #111827;
             border-bottom: 2px solid var(--light-gray);
             padding-bottom: 0.5rem;
             display: inline-block;
         }
 
-        /* Header Section */
-        header {
-            padding: 4rem 0 2rem;
+        .subsection-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #374151;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid var(--primary-color);
+            padding-left: 1rem;
         }
+
+        /* Header */
+        header { padding: 4rem 0 2rem; }
 
         h1.paper-title {
             font-size: 2.5rem;
@@ -62,39 +71,15 @@
             -webkit-text-fill-color: transparent;
         }
 
-        .authors {
-            font-size: 1.1rem;
-            margin-bottom: 1rem;
-        }
-
-        .authors a {
-            color: var(--primary-color);
-            text-decoration: none;
-            font-weight: 500;
-        }
-
+        .authors { font-size: 1.1rem; margin-bottom: 1rem; }
+        .authors a { color: var(--primary-color); text-decoration: none; font-weight: 500; }
         .authors a:hover { text-decoration: underline; }
+        
+        .affiliations { font-size: 0.95rem; color: #4b5563; margin-bottom: 2rem; }
+        .affiliations span { margin: 0 0.5rem; display: inline-block; }
 
-        .affiliations {
-            font-size: 0.95rem;
-            color: #4b5563;
-            margin-bottom: 2rem;
-        }
-
-        .affiliations span {
-            margin: 0 0.5rem;
-            display: inline-block;
-        }
-
-        /* Action Buttons */
-        .links {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin-top: 1.5rem;
-            flex-wrap: wrap;
-        }
-
+        /* Buttons */
+        .links { display: flex; justify-content: center; gap: 1rem; margin-top: 1.5rem; flex-wrap: wrap; }
         .btn {
             background-color: var(--text-color);
             color: var(--white);
@@ -103,12 +88,9 @@
             text-decoration: none;
             font-weight: 600;
             transition: all 0.2s ease;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            display: inline-flex; align-items: center; gap: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
         }
-
         .btn-primary { background-color: var(--primary-color); }
         .btn-primary:hover { background-color: var(--secondary-color); transform: translateY(-2px); }
         .btn-dark { background-color: #374151; }
@@ -119,18 +101,22 @@
             max-width: 100%;
             height: auto;
             border-radius: 8px;
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-            margin: 1.5rem 0;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+            margin: 1rem 0;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .caption {
             font-size: 0.9rem;
             color: #6b7280;
             margin-top: 0.5rem;
-            text-align: justify;
+            text-align: center;
+            font-style: italic;
         }
 
-        /* Abstract */
+        /* Abstract Box */
         .abstract-box {
             background-color: var(--light-gray);
             padding: 2rem;
@@ -139,29 +125,50 @@
             text-align: justify;
         }
 
-        .abstract-text {
-            font-size: 1.05rem;
-        }
-
-        /* Method & Results */
-        .content-block {
-            margin-bottom: 2rem;
-        }
-
-        .content-block h3 {
-            font-size: 1.5rem;
-            color: #1f2937;
-            margin-bottom: 1rem;
-        }
-
-        .results-grid {
+        /* Motivation Section */
+        .motivation-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 2rem;
+            margin-top: 2rem;
+        }
+        .motivation-card {
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+        .motivation-card h3 {
+            color: #dc2626; /* Red for "Problems" */
+            font-size: 1.1rem;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Method Grid */
+        .method-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .method-item h3 { color: var(--primary-color); }
+
+        /* Experiments */
+        .exp-block { margin-bottom: 3rem; }
+        
+        .side-by-side-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            align-items: start;
         }
 
         @media (max-width: 768px) {
-            .results-grid { grid-template-columns: 1fr; }
+            .motivation-grid, .method-grid, .side-by-side-grid { grid-template-columns: 1fr; }
             h1.paper-title { font-size: 1.8rem; }
         }
 
@@ -174,22 +181,9 @@
             overflow-x: auto;
             text-align: left;
         }
+        pre { margin: 0; font-family: 'Courier New', monospace; font-size: 0.9rem; color: #334155; }
 
-        pre {
-            margin: 0;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 0.9rem;
-            color: #334155;
-        }
-
-        /* Footer */
-        footer {
-            margin-top: 4rem;
-            padding: 2rem 0;
-            border-top: 1px solid #e5e7eb;
-            color: #6b7280;
-            font-size: 0.9rem;
-        }
+        footer { margin-top: 4rem; padding: 2rem 0; border-top: 1px solid #e5e7eb; color: #6b7280; }
     </style>
 </head>
 <body>
@@ -219,28 +213,18 @@
         </div>
 
         <div class="links">
-            <a href="#" class="btn btn-dark">
-                <!-- Icon placeholder -->
-                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-                Paper (Arxiv)
-            </a>
-            <a href="#" class="btn btn-dark">
-                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path></svg>
-                Code (GitHub)
-            </a>
-            <a href="#" class="btn btn-primary">
-                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                Video Demo
-            </a>
+            <a href="#" class="btn btn-dark">Paper (Arxiv)</a>
+            <a href="#" class="btn btn-dark">Code (GitHub)</a>
+            <a href="#" class="btn btn-primary">Video Demo</a>
         </div>
     </header>
 
     <div class="container">
-        <!-- Teaser Image -->
+        <!-- Teaser -->
         <div class="text-center">
             <img src="images/teaser.png" alt="Teaser Figure showing AFRO Framework" class="img-fluid">
             <p class="caption">
-                <strong>Figure 1:</strong> (a) The relationship between robot manipulation in real space and its abstraction in latent space. (b) Our framework (AFRO) learns dynamics-aware 3D visual features in latent space. (c) AFRO achieves higher success rates and stronger generalization than baseline methods in both simulation and real-world tasks.
+                <strong>Figure 1:</strong> AFRO learns dynamics-aware 3D representations in latent space without action labels or explicit reconstruction, achieving superior performance and generalization.
             </p>
         </div>
 
@@ -248,13 +232,34 @@
         <section id="abstract">
             <div class="text-center"><h2 class="section-title">Abstract</h2></div>
             <div class="abstract-box">
-                <p class="abstract-text">
-                    Despite strong results on recognition and segmentation, current 3D visual pre-training methods often underperform on robotic manipulation. We attribute this gap to two factors: the lack of state-action-state dynamics modeling and the unnecessary redundancy of explicit geometric reconstruction. 
-                    <br><br>
-                    We introduce <strong>AFRO</strong>, a self-supervised framework that learns dynamics-aware 3D representations without action or reconstruction supervision. AFRO casts state prediction as a generative diffusion process and jointly models forward and inverse dynamics in a shared latent space to capture causal transition structure. To prevent feature leakage in action learning, we employ feature differencing and inverse-consistency supervision, improving the quality and stability of visual features. 
-                    <br><br>
-                    When combined with Diffusion Policy, AFRO substantially increases manipulation success rates across 16 simulated and 4 real-world tasks, outperforming existing pre-training approaches.
+                <p>
+                    Despite strong results on recognition and segmentation, current 3D visual pre-training methods often underperform on robotic manipulation. We introduce <strong>AFRO</strong>, a self-supervised framework that learns dynamics-aware 3D representations without action or reconstruction supervision. AFRO casts state prediction as a generative diffusion process and jointly models forward and inverse dynamics in a shared latent space to capture causal transition structure. When combined with Diffusion Policy, AFRO substantially increases manipulation success rates across 16 simulated and 4 real-world tasks, outperforming existing pre-training approaches.
                 </p>
+            </div>
+        </section>
+
+        <!-- Motivation: The Gaps -->
+        <section id="motivation">
+            <div class="text-center"><h2 class="section-title" style="margin-top: 2rem; font-size: 1.5rem;">Motivation: Why Current 3D Pre-training Fails?</h2></div>
+            <div class="motivation-grid">
+                <div class="motivation-card">
+                    <h3>
+                        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        Lack of Dynamics Awareness
+                    </h3>
+                    <p>
+                        Robotic manipulation is inherently sequential. Existing methods often rely on <strong>single-frame supervision</strong> (like reconstruction or contrastive learning on static views), completely overlooking the temporal continuity and causal dependencies (State-Action-State) essential for control.
+                    </p>
+                </div>
+                <div class="motivation-card">
+                    <h3>
+                        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        Lack of Manipulation-Relevant Abstraction
+                    </h3>
+                    <p>
+                        Current approaches often strive for <strong>holistic scene reconstruction</strong>. This forces the model to encode background details irrelevant to the task (e.g., table texture, distant walls), distracting the policy from actionable object regions and interaction dynamics.
+                    </p>
+                </div>
             </div>
         </section>
 
@@ -263,58 +268,110 @@
             <div class="text-center"><h2 class="section-title">Methodology</h2></div>
             
             <div class="content-block">
-                <p>
-                    AFRO integrates inverse and forward dynamics models (IDM/FDM) to encode state-action-state transitions directly in a latent space. Unlike previous methods, we model future state uncertainties with a <strong>generative diffusion process</strong> while avoiding explicit reconstruction.
-                </p>
-                <img src="images/method_overview.png" alt="Method Overview Diagram" class="img-fluid">
-                <p class="caption">
-                    <strong>Figure 2: Overall Framework.</strong> (a) Predict Future: The IDM infers latent actions from feature differences. The FDM predicts future features using a diffusion process. (b) Predict History: We use inverse-consistency to predict historical states, stabilizing the representation.
+                <p class="text-center" style="max-width: 800px; margin: 0 auto;">
+                    AFRO addresses these gaps by learning <strong>dynamics-aware representations</strong>. We integrate Inverse and Forward Dynamics Models (IDM/FDM) in a latent space, utilizing feature differencing and a diffusion-based predictor.
                 </p>
             </div>
 
-            <div class="results-grid">
-                <div>
-                    <h3>Key Innovation 1: Latent Action</h3>
-                    <p>
-                        We employ <strong>Feature Differencing</strong> to model changes in representation rather than the representations themselves. This prevents the model from "shortcutting" (memorizing states) and forces it to learn actual dynamics.
-                    </p>
+            <div class="method-grid">
+                <div class="method-item">
+                    <h3>1. Latent Action Modeling</h3>
+                    <p>To prevent feature leakage (shortcut learning), we input <strong>feature differences</strong> instead of raw feature pairs into the IDM. We also introduce <strong>Inverse-Consistency</strong> supervision to stabilize the learned dynamics.</p>
+                    <!-- User requested Figure 3 here -->
+                    <img src="images/figure3.png" alt="Figure 3: Inverse Dynamic Model and Feature Differencing" class="img-fluid">
+                    <p class="caption"><strong>Figure 3:</strong> Feature Differencing & Inverse Dynamics.</p>
                 </div>
-                <div>
-                    <h3>Key Innovation 2: Diffusion FDM</h3>
-                    <p>
-                        We formulate forward prediction as a conditional denoising process. This allows AFRO to capture the multimodal uncertainty of real-world interactions (one action might lead to multiple slightly different outcomes).
-                    </p>
+                <div class="method-item">
+                    <h3>2. Diffusion Forward Dynamics</h3>
+                    <p>Since the future is multimodal (uncertain), we model forward prediction as a <strong>conditional denoising process</strong> using a Diffusion Transformer (DiT), rather than a deterministic regression.</p>
+                    <!-- User requested Figure 4 here -->
+                    <img src="images/figure4.png" alt="Figure 4: Forward Dynamic Model with Diffusion Transformer" class="img-fluid">
+                    <p class="caption"><strong>Figure 4:</strong> Diffusion-based Forward Dynamics Model.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Results -->
-        <section id="results">
-            <div class="text-center"><h2 class="section-title">Experiments & Results</h2></div>
+        <!-- Simulation Experiments -->
+        <section id="sim-experiments">
+            <div class="text-center"><h2 class="section-title">Simulation Experiments</h2></div>
             
-            <div class="content-block">
-                <h3>Simulation Benchmarks</h3>
-                <p>We evaluated AFRO on 16 simulated tasks (MetaWorld & Adroit). AFRO consistently outperforms strong 2D/3D pretraining baselines (like CLIP, DINOv2, PointMAE, Dynamo-3D).</p>
-                <img src="images/results_simulation.png" alt="Simulation Results Table" class="img-fluid">
-                <p class="caption">
-                    <strong>Table 1 & Figure 5:</strong> AFRO achieves state-of-the-art success rates, particularly in challenging tasks requiring precise manipulation and temporal coordination.
-                </p>
+            <!-- 1. Main Experiment -->
+            <div class="exp-block">
+                <h3 class="subsection-title">1. Main Benchmark Results</h3>
+                <p>Comparison on 16 tasks (Adroit & MetaWorld) against SOTA baselines (DP3, PointMAE, Dynamo-3D, etc.). AFRO achieves the highest success rates.</p>
+                <img src="images/results_simulation.png" alt="Table 1: Main Simulation Results" class="img-fluid" style="max-width: 85%;">
             </div>
 
-            <div class="content-block">
-                <h3>Real-World Performance</h3>
-                <p>We deployed AFRO on a Franka Emika robot arm for tasks including Bell Pressing, Block Alignment, and Fruit Pick-and-Place.</p>
-                <img src="images/real_world.png" alt="Real World Experiment Setup" class="img-fluid">
-                <p class="caption">
-                    <strong>Figure 8:</strong> (a) Robot setup and objects. (b) AFRO demonstrates robust transfer to physical hardware, effectively handling object variation and background clutter.
-                </p>
+            <!-- 2. Out-of-domain Scalability -->
+            <div class="exp-block">
+                <h3 class="subsection-title">2. Out-of-Domain Scalability</h3>
+                <p>When pre-trained on diverse domains (multi-task), AFRO shows superior transfer capabilities compared to baselines, which often degrade or plateau.</p>
+                <img src="images/figure5.png" alt="Figure 5: Domain Scalability Results" class="img-fluid" style="max-width: 85%;">
+            </div>
+
+            <!-- 3. Data Scalability -->
+            <div class="exp-block">
+                <h3 class="subsection-title">3. Data Scalability</h3>
+                <p>Performance vs. Number of Demonstrations. AFRO continues to improve with more data, showing strong scaling laws suitable for large-scale learning.</p>
+                <img src="images/figure6.png" alt="Figure 6: Data Scalability Results" class="img-fluid" style="max-width: 50%;">
+            </div>
+
+            <!-- 4. Feature Visualization -->
+            <div class="exp-block">
+                <h3 class="subsection-title">4. Feature Visualization (t-SNE)</h3>
+                <p>Qualitative analysis of the learned latent space. AFRO forms clearer, more distinct task clusters and smooth temporal trajectories.</p>
+                <img src="images/figure7.png" alt="Figure 7: t-SNE Visualization" class="img-fluid" style="max-width: 50%;">
+            </div>
+        </section>
+
+        <!-- Real World Experiments -->
+        <section id="real-experiments">
+            <div class="text-center"><h2 class="section-title">Real-World Experiments</h2></div>
+
+            <!-- 1. Setup & Demo -->
+            <div class="exp-block">
+                <h3 class="subsection-title">1. Setup & Demonstration</h3>
+                <p>We evaluated on a Franka Emika arm across 4 tasks: Block Alignment, Bell Pressing, Fruit Pick-and-Place, and Cover Block.</p>
+                <!-- User will stitch a picture here -->
+                <img src="images/real_world_setup.png" alt="Real World Setup and Task Demonstrations" class="img-fluid">
+                <p class="caption"><strong>Figure 8 & 9:</strong> Real-world experiment setup and task rollouts.</p>
+            </div>
+
+            <!-- 2. Main Real World Table -->
+            <div class="exp-block">
+                <h3 class="subsection-title">2. Real-World Performance</h3>
+                <p>Success rates in real-world trials. AFRO significantly outperforms baselines, especially in dynamic and contact-rich tasks.</p>
+                <img src="images/table2_realworld.png" alt="Table 2: Real World Performance" class="img-fluid" style="max-width: 80%;">
+            </div>
+
+            <!-- 3. Generalization (Side by Side) -->
+            <div class="exp-block">
+                <h3 class="subsection-title">3. Robustness & Generalization</h3>
+                <div class="side-by-side-grid">
+                    <div>
+                        <h4 style="text-align: center;">Object Generalization</h4>
+                        <p style="font-size: 0.9rem;">Testing on unseen objects (different shapes/sizes).</p>
+                        <img src="images/table3_object_gen.png" alt="Table 3: Object Generalization" class="img-fluid">
+                    </div>
+                    <div>
+                        <h4 style="text-align: center;">Cluttered Scenes</h4>
+                        <p style="font-size: 0.9rem;">Testing robustness against distractor objects.</p>
+                        <img src="images/table4_clutter_gen.png" alt="Table 4: Cluttered Scene Generalization" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Ablation Study -->
+            <div class="exp-block">
+                <h3 class="subsection-title">4. Ablation Study</h3>
+                <p>Validating the contribution of each component (Diffusion FDM, Feature Differencing, Inverse Consistency, VICReg).</p>
+                <img src="images/table5_ablation.png" alt="Table 5: Ablation Study" class="img-fluid" style="max-width: 60%;">
             </div>
         </section>
 
         <!-- Citation -->
         <section id="citation">
             <div class="text-center"><h2 class="section-title">Citation</h2></div>
-            <p>If you find our work useful in your research, please consider citing:</p>
             <div class="bibtex-container">
 <code>@article{liang2025afro,
   title={Bootstrap Dynamic-Aware 3D Visual Representation for Scalable Robot Learning},
@@ -329,10 +386,7 @@
 
     <footer class="text-center">
         <div class="container">
-            <p>
-                Copyright © 2025 AFRO Project Team. <br>
-                Website template based on modern research standards.
-            </p>
+            <p>Copyright © 2025 AFRO Project Team.</p>
         </div>
     </footer>
 
