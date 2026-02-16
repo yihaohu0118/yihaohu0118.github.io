@@ -36,14 +36,16 @@ My research interests lie in **Embodied AI**, particularly in **Robotic Manipula
 - *2023.10 - Now*, Research Intern, **National Engineering Laboratory for Big Data System Computing Technology**, Shenzhen University.
 
 # 📜 Publication
+**2026**
+- Yixuan Ye, Xuanyu Lu, Yuxin Jiang, Yuchao Gu, Rui Zhao, **Qiwei Liang**, Jiachun Pan, Fengda Zhang, Weijia Wu, Alex Jinpeng Wang, **MIND: Benchmarking Memory Consistency and Action Control in World Models**, (under review), [[paper]](https://www.arxiv.org/abs/2602.08025), [[project page]](https://csu-jpg.github.io/MIND.github.io/)
 
 **2025**
+- **Qiwei Liang**, Boyang Cai, Minghao Lai, Sitong Zhuang, Tao Lin, Yan Qin, Yixuan Ye, Jiaming Liang, Renjing Xu, **Bootstrap Dynamic-Aware 3D Visual Representation for Scalable Robot Learning**, (under review), [[paper]](https://arxiv.org/abs/2512.00074), [[project page]](https://kolakivy.github.io/AFRO/)
 - **Qiwei Liang**, Boyang Cai, Rongyi He, Hui Li, Tao Teng, Haihan Duan, Changxin Huang, Runhao Zeng, **Whole-Body Coordination for Dynamic Object Grasping with Legged Manipulators**, (AAAI 2026), [[paper]](https://arxiv.org/abs/2508.08328), [[project page]](https://kolakivy.github.io/DQ/)
 - Tianxing Chen, Zanxin Chen, Baijun Chen, Zijian Cai, **Qiwei Liang**, Zixuan Li, Xianliang Lin, Yiheng Ge, Yibin Liu, Zhenyu Gu, Weiliang Deng, Yubin Guo, Tian Nian, Xuanbing Xie, Qiangyu Chen, KailunSu, Tianling Xu, Guodong Liu, Mengkang Hu, Huan-ang Gao, Kaixuan Wang, Zhixuan Liang, Yusen Qin, Xiaokang Yang, Ping Luo, Yao Mu, **RoboTwin 2.0: Autonomous Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation**, (under review), [[paper]](https://arxiv.org/abs/2506.18088), [[project page]](https://robotwin-platform.github.io/)
 - Mengkang Hu, Tianxing Chen, Yude Zou, Yuheng Lei, Qiguang Chen, Ming Li, **Qiwei Liang**, Yao Mu, Hongyuan Zhang, Wenqi Shao, Ping Luo, **Text2World: Benchmarking Large Language Models for Symbolic World Model Generation**, (ICLR W 2025), [[paper]](https://openreview.net/pdf?id=dIQNOxuBay), [[project page]](https://text-to-world.github.io/)
 
 **2024**
-
 - **Qiwei Liang**, Rulin Zhou, Yijing Zhou, Guankun Wang, XiaopinZhong, **STAR: Empowering Semi-Supervised Medical Image Segmentation with SAM-based Teacher-Student Architecture and Contrastive Consistency Regularization**, (ESWA, 中科院一区TOP), [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417425022699)
 - Changxin Huang, **Qiwei Liang**, Jingzhao Xu, Hui Li, Xiping Hu, Runhao Zeng, Victor C. M. Leung, Junfa Mao, Jianqiang Li, **Video2Reward++: Advancing Robot Skill Acquisition via Video-guided Reward Generation**, (under review, 中科院一区TOP, IF>20)
 - Runhao Zeng, Dingjie Zhou, **Qiwei Liang**, Junlin Liu, Hui Li, Changxin Huang, Jianqiang Li, Xiping Hu, Fuchun Sun, **Video2Reward: Generating Reward Function from Videos for Legged Robot Behavior Learning**(**ECAI 2024**)(<span style="color:red;">**Spotlight**</span>), [[paper]](https://arxiv.org/abs/2412.05515), [[project page]](https://djjiery.github.io/Video2Reward.github.io/)
