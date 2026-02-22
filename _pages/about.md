@@ -15,113 +15,93 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+ 
 
-### **About Me**  
+### **About Me** 
 
-Hello! I'm Qiwei Liang (梁棋炜), a senior undergraduate student majoring in Robotics Engineering at Shenzhen University, expected to graduate in July 2026. Currently, I am conducting research at the Humanoid Computing Lab, HKUST(gz), under the supervision of [Renjing Xu](https://scholar.google.com/citations?user=Mu__bJEAAAAJ&hl=en). Previously, I conducted research at the Institute of Artificial Intelligence, Shenzhen MSU-BIT University, under the supervision of [Runhao Zeng](https://scholar.google.com.sg/citations?user=s3X4YHwAAAAJ&hl=en).  
+Hello! I'm **Yihao HU (胡益豪)**, a third-year undergraduate student majoring in Computer Science at **Hainan University** (GPA: 3.93/4.0, Top 1%, Rank 2/207), expected to graduate in 2026. My research focuses on **Multimodal AI**, **Reasoning LLM/VLM**, **AI Agent**, and **Computer Vision**.
 
-Before diving into research, I was an IoT enthusiast dedicated to developing IoT products with the goal of improving people's lives. I was also the **national champion**, of the China Collegiate IoT Design Competition.  
+I am currently an Algorithm Intern at **Meituan** (Core R&D Platform, Native Multimodal LLM - LongCat) and an AI Agent & LLM Alignment Intern at **Alibaba Group, Amap (高德)**. Previously, I was a Research Assistant at the **Digital Media Computing & Design Lab, Zhejiang University** (Prof. Juncheng LI).
 
-My research interests lie in **Embodied AI**, particularly in **Robotic Manipulation** (VLA, VA, RL), **Robot Learning**, and **Whole-Body Control**. Fundamentally, my work revolves around **infusing intelligence into machines**.  
+I have published/submitted papers at **NeurIPS 2025**, **ACL 2026**, **ICML 2026**, and top journals (Q1), and have received **7+ national/international competition awards** including the National Scholarship.
 
 # 🎓 Education
 
-- *2022.09 - Now*, B.Eng. in Robotics Engineering, Shenzhen University (SZU), Shenzhen.
+- *2022.09 - Present*, B.Eng. in Computer Science, **Hainan University (海南大学)**, Hainan, China.
+  - GPA: 3.93/4.0 (Top 1%, Rank 2/207)
+  - Key Courses: Data Structures (97), Data Mining (97), Machine Learning (95), Introduction to AI (95), Operating Systems (95), OOP (98), Database Design (96)
 
-# 💼 Research Experience
+# 💼 Research & Internship Experience
 
-- *2024.04 - Now*, Research Intern, The Institute of Artificial Intelligence, **Shenzhen MSU-BIT University**.
-- *2025.01 - Now*, Research Intern, **MMLab@HKU** (Multimedia Laboratory, The University of Hong Kong).
-- *2023.10 - Now*, Research Intern, **National Engineering Laboratory for Big Data System Computing Technology**, Shenzhen University.
+- *2025.10 - Present*, Algorithm Intern (Native Multimodal LLM - LongCat), **Meituan (美团)**, Core R&D Platform, Shenzhen, China.
+- *Ongoing*, AI Agent & LLM Alignment Intern, **Alibaba Group, Amap (高德)**, Shenzhen, China.
+- *2025.02 - 2025.06*, Research Assistant, **Digital Media Computing & Design Lab, Zhejiang University** (Prof. Juncheng LI).
+- *2023.06 - Present*, Undergraduate Research Team Member (Group Leader), **Prof. Xiaodong BAI's Lab, Hainan University**.
+- *2024.10 - 2025.10*, Group Leader, **National-Level College Student Innovation & Entrepreneurship Training Program**.
 
-# 📜 Publication
-**2026**
-- Yixuan Ye, Xuanyu Lu, Yuxin Jiang, Yuchao Gu, Rui Zhao, **Qiwei Liang**, Jiachun Pan, Fengda Zhang, Weijia Wu, Alex Jinpeng Wang, **MIND: Benchmarking Memory Consistency and Action Control in World Models**, (under review), [[paper]](https://www.arxiv.org/abs/2602.08025), [[project page]](https://csu-jpg.github.io/MIND.github.io/)
+# 📜 Publications
+
+**2026 (Submitted)**
+- **Y. Hu** et al., "**VulThinker: Deep Reasoning for Vulnerability Detection**", *ACL 2026*, Submitted. (1st author, CCF-A)
+- **Y. Hu** et al., "**OmniVideo-R1: Intention-driven Deep Fusion for Audio-Visual Reasoning**", *ICML 2026*, Submitted. (2nd author, CCF-A)
+- X. Yu et al., "**Dual Latent Memory for Visual Multi-agent System**", *ICML 2026*, Submitted. [[arXiv]](https://arxiv.org/abs/2602.00471) (CCF-A)
+- "**HoloRoom: Holistic and Compositional 3D Scene Generation via Global-to-Local Assembly**", *CVPR 2026*, Submitted. (CCF-A)
 
 **2025**
-- **Qiwei Liang**, Boyang Cai, Minghao Lai, Sitong Zhuang, Tao Lin, Yan Qin, Yixuan Ye, Jiaming Liang, Renjing Xu, **Bootstrap Dynamic-Aware 3D Visual Representation for Scalable Robot Learning**, (under review), [[paper]](https://arxiv.org/abs/2512.00074), [[project page]](https://kolakivy.github.io/AFRO/)
-- **Qiwei Liang**, Boyang Cai, Rongyi He, Hui Li, Tao Teng, Haihan Duan, Changxin Huang, Runhao Zeng, **Whole-Body Coordination for Dynamic Object Grasping with Legged Manipulators**, (AAAI 2026), [[paper]](https://arxiv.org/abs/2508.08328), [[project page]](https://kolakivy.github.io/DQ/)
-- Tianxing Chen, Zanxin Chen, Baijun Chen, Zijian Cai, **Qiwei Liang**, Zixuan Li, Xianliang Lin, Yiheng Ge, Yibin Liu, Zhenyu Gu, Weiliang Deng, Yubin Guo, Tian Nian, Xuanbing Xie, Qiangyu Chen, KailunSu, Tianling Xu, Guodong Liu, Mengkang Hu, Huan-ang Gao, Kaixuan Wang, Zhixuan Liang, Yusen Qin, Xiaokang Yang, Ping Luo, Yao Mu, **RoboTwin 2.0: Autonomous Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation**, (under review), [[paper]](https://arxiv.org/abs/2506.18088), [[project page]](https://robotwin-platform.github.io/)
-- Mengkang Hu, Tianxing Chen, Yude Zou, Yuheng Lei, Qiguang Chen, Ming Li, **Qiwei Liang**, Yao Mu, Hongyuan Zhang, Wenqi Shao, Ping Luo, **Text2World: Benchmarking Large Language Models for Symbolic World Model Generation**, (ICLR W 2025), [[paper]](https://openreview.net/pdf?id=dIQNOxuBay), [[project page]](https://text-to-world.github.io/)
+- M. Gao et al., "**Counterfactual Evolution of Multimodal Datasets via Visual Programming**", **NeurIPS 2025**. (CCF-A)
+- **Y. Hu** et al., "**SDE-DET: A Precision Network for Shatian Pomelo Detection in Complex Orchard Environments**", *Smart Agriculture Technology*, Minor Revision, 2025. (1st author, Q1, IF: 5.7)
+- **Y. Hu** et al., "**A Multi-Strategy Framework for Enhancing Shatian Pomelo Detection in Real-World Orchards**", *Engineering Applications of Artificial Intelligence*, Second Review, 2025. (Co-1st author, Q1, IF: 7.7)
 
-**2024**
-- **Qiwei Liang**, Rulin Zhou, Yijing Zhou, Guankun Wang, XiaopinZhong, **STAR: Empowering Semi-Supervised Medical Image Segmentation with SAM-based Teacher-Student Architecture and Contrastive Consistency Regularization**, (ESWA, 中科院一区TOP), [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417425022699)
-- Changxin Huang, **Qiwei Liang**, Jingzhao Xu, Hui Li, Xiping Hu, Runhao Zeng, Victor C. M. Leung, Junfa Mao, Jianqiang Li, **Video2Reward++: Advancing Robot Skill Acquisition via Video-guided Reward Generation**, (under review, 中科院一区TOP, IF>20)
-- Runhao Zeng, Dingjie Zhou, **Qiwei Liang**, Junlin Liu, Hui Li, Changxin Huang, Jianqiang Li, Xiping Hu, Fuchun Sun, **Video2Reward: Generating Reward Function from Videos for Legged Robot Behavior Learning**(**ECAI 2024**)(<span style="color:red;">**Spotlight**</span>), [[paper]](https://arxiv.org/abs/2412.05515), [[project page]](https://djjiery.github.io/Video2Reward.github.io/)
-- **FASR-Net: Unsupervised Shadow Removal Leveraging Inherent Frequency Priors**, (under review, CCFB), [[paper]](https://arxiv.org/abs/2504.05779)
-- **Qiwei Liang**, Yikeng Chen, Wenbiao Li, Minghao Lai, Wenjian Ni Hong Qiu, **iKnowiSee: AR Glasses with Language Learning Translation System and Identity Recognition System Built Based on Large Pre-trained Models of Language and Vision and Internet of Things Technology**(CINT 2024), [[paper]](https://link.springer.com/chapter/10.1007/978-981-97-3948-6_2)
+# 🔬 Research Projects
 
+**Project 1: VulThinker — Deep Reasoning for Vulnerability Detection** *(2025.06 - 2025.10)*
+- Reformulated black-box binary detection into a verifiable causal reasoning framework via multi-view SFT with forward/backward counterfactual reasoning and generative repair.
+- Introduced two-stage curriculum RL with GRPO and reward design based on lexical verification and soft evidence matching to suppress logical hallucination.
+- Built VulReason-Bench (1850 expert-validated samples); achieved 83.5%/67.6% accuracy on BenchVul and VulReason-Bench, discovering 18 real-world 0-day vulnerabilities.
 
-# 🌟 Others
+**Project 2: DeepOmni-R1 — Audio-Visual Reasoning** *(2025.10 - Present)*
+- Proposed "DeepOmni-R1", a Zero-RL framework enabling reasoning without process annotation via intention-chain self-supervision and two-stage GSPO-based alignment.
+- Designed DeepFusion contrastive reward to maximize multimodal gain over unimodal reasoning.
+- Built an 88K audio-visual instruction dataset; achieved +7.8% on OmniVideoBench (SOTA), outperforming Gemini-3-Pro on Daily-Omni.
 
-🥇 **Awards**🥈🥉🏅🎖️
-- **Second Prize in South China Region**🥈, **National College Embedded Chip Design Competition** (全国大学生嵌入式芯片设计竞赛), Vice Team Leader, 2024
-- **Third Prize in South China Region**🥉, **National College Intelligent Vehicle Competition** (全国大学生智能车竞赛), Vice Team Leader, 2024
-- (<span style="color:red;">**National Grand Champion**</span>)🏆, **National College IoT Design Competition** (全国大学生物联网设计竞赛), Ranked 1st out of 1,992 teams, Team leader, 2023
-- **National First Prize**🥇, **National College IoT Design Competition**, Team leader, 2023
-- **First Prize in South China Region**🥇, **National College IoT Design Competition**, Team leader, 2023
-- **First Prize in South China Region**🥇, **iCAN College Innovation and Entrepreneurship Competition** (iCAN大学生创新创业大赛), Team leader, 2023
-- **Bronze Award**🥉, **"Liyuan Challenge" Entrepreneurship Track**, Team leader, 2023
-- **Second Prize**🥈, **National College E-Commerce "Innovation, Creativity, and Entrepreneurship" Challenge** (三创赛), 2023
-  
-📝 **Reviewer**
-- lEEE International conference on Multimedia&Expo 2025 (IEEE ICME) - *'25*
+**Project 3: SCOPE — Counterfactual Evolution via Visual Programming** *(2025.02 - 2025.06, ZJU)*
+- Proposed SCOPE, a symbolic visual programming framework that converts implicit reasoning into executable Python code via an "Abduct-Intervene-Predict" loop.
+- Constructed SCOPE-Train and SCOPE-Test benchmarks; designed "Memory and Attention Path Learning" for structured difficulty progression.
+- Published at **NeurIPS 2025** (CCF-A).
 
-💸 **Scholarships**
-- **Second Prize in the Public Welfare Star Competition**, (2024), [2000 CNY] 
-- **Huawei Cup Grand Championship Prize**, (2023), [<span style="color:red;">**20000 CNY**</span>]
-- **Huawei Scholarship**, (2023), [5000 CNY]
-- **First Prize in the Innovation and Entrepreneurship Star**, (2023), [3000 CNY] 
-- **Third Prize in the Academic Star Competition**, (2023), [1000 CNY] 
+**Project 4: SDE-DET — Pomelo Detection** *(National Innovation Program, 2024.10 - 2025.10)*
+- Proposed a lightweight SDE-DET with tar Block for high-dimensional feature mapping and fine-grained texture preservation.
+- Integrated Deformable Attention and Efficient Multi-Scale Attention for discriminative representation.
+- Constructed STP-AgriData dataset; achieved 83.8% accuracy with 3.29M parameters (32.4 GFLOPs), outperforming YOLOv10 and RT-DETR.
 
-🧙‍♂️ **Leadership Experience**
-- **Vice President**, **AutoLeaders Club, Shenzhen University** (深圳大学AutoLeaders俱乐部 副会长), 2023-2024
-- **Leader**, **Baidu PaddlePaddle Pioneer Group**, (百度飞桨领航团团长), 2023-2024
-- **Leader**, **Cultural and Entertainment Department, Student Union**, (学生会文娱部部长), 2023-2024
-- **Project Leader**, **Basic Experimental Project of the Student Innovation and Development Fund**, (创新基金项目负责人), 2023-2024
-- **Project Leader**, **University Students' Innovation and Entrepreneurship Training Project**, (大创负责人), 2023-2024
+**Project 5: IMF-ITD — Interpretable Image-Text Description** *(2023.06 - Present)*
+- Designed an interpretable vision-language generation framework integrating CLIP, BLIP2, and ConvNeXt-XXLarge.
+- Applied LoRA-based parameter-efficient fine-tuning and attention weight re-calibration for improved modality interaction.
 
-📚 **Club**
-- **Shenzhen University AutoLeaders Club**, (AutoLeaders俱乐部), 2022.10 - Present
-- **Huawei AIeducationbase Association** (华为智能基座社团),2023.9 - Present
-- **Embodied AI Club (ROS Club)**, (ROS俱乐部), 2022.10 - Present
+# 🌟 Honors & Awards
 
-🎤 **Public Talk**
-- Speaker, invited by the **institute**, **sharing experiences on engineering studies, competitions, and research with all first-year students transitioning to their second year**, 30 min, 2024.8
+🏅 **Scholarships & Honors**
+- **National Scholarship** (国家奖学金, 50th among all undergraduates in the whole school), 2025.10
+- **"WuXu" Scholarship** (1/207), 2024.10
+- **First-Class Academic Scholarship**, Hainan University (Top 10 in Department), 2023.10
+- **Merit Student**, Hainan University (80th among all undergraduates), 2023.12
 
-- Speaker, invited by the **club**, **providing training for all students participating in the IoT competition, analyzing the competition problems, and sharing experiences**, 1 hour, 2024.3
+🥇 **Competition Awards**
+- **International Finals – First Prize**, 5th Global Campus AI Algorithm Elite Competition (Stable Diffusion Prompt Optimization Track), 2023.12
+- **National First Prize**, 15th National College Mathematics Competition, 2023.12
+- **National Second Prize**, 2023 China Collegiate Computer Programming Competition, 2024.01
+- **International Finals – Second Prize**, 6th Global Campus AI Algorithm Elite Competition (AI + New Discipline Track), 2024.12
+- **International Finals – Third Prize**, 6th Global Campus AI Algorithm Elite Competition (AI + New Medical Track), 2024.12
+- **National Finals – Second Prize**, 12th National College Digital Media Technology & Creativity Competition, 2024.12
+- **National Finals – Second Prize**, 27th China Robot & AI Competition, 2025.08
+- **National Finals – Third Prize**, 27th China Robot & AI Competition, 2025.08
 
-🤺 **Hobby**
-- **Fencing**. I have a strong passion for fencing, and I practice sabre. I once achieved a remarkable **fourth place in the National Challenge Tournament**.
-- **Hiphop**. I am particularly fond of hip-hop music, and I love Beatbox and Rap. I enjoy creating music.
+# 🛠️ Skills
 
-🌐 **related report**
-
-[2023.08] [2023年全国大学生物联网设计竞赛全国总决赛在南京大学举行](https://www.nju.edu.cn/info/3341/337591.htm)
-
-[2023.08] [点赞！他们一个暑期悄悄拿了这么多奖](https://mp.weixin.qq.com/s/z2NMzX9Zm_z40wsDLPaDZg)
-
-# 🚀 Startup Projects
-
-Here are some of the entrepreneurial projects I have initiated. These projects reflect my passion with real-world applications to bring innovative ideas to life.
-
-### **Weshare**
-- **Project Introduction**:  
-  We strive to create a comprehensive competition exchange platform that breaks down information barriers through sharing experiences and solutions, helping participants resolve confusion and improve their chances of winning.
-- **Co-founders**: Qiwei Liang, [Tao Lin](https://lintao.online), Yihao Hu.
-- **Website**: [project-website.com](https://weshare.xin/)
-- **Xiaohongshu**: [View on Xiaohongshu](https://www.xiaohongshu.com/user/profile/65cdf2de0000000005033e2b)
-- **Logo**:  
-  <img src="../images/weshare_logo.png" alt="Project Logo" width="300"/>
-
-### **七味具身**
-- **Project Introduction**:  
-  The project is coming soon.
+- **Programming**: C/C++ (Proficient), Python (Proficient), Matlab (Familiar)
+- **Tools**: Tableau, SPSS, AutoCAD, CATIA, Solidworks, Hyperworks
+- **Writing**: LaTeX (Proficient), Microsoft Office (Familiar)
+- **Research Areas**: Multimodal LLM, Reasoning VLM, AI Agent, Computer Vision, RLHF/DPO
 
 ---
-
-<div id="clustrmaps-container" style="width: 400px; height: 300px; overflow: hidden;">
-  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=4oBE-t6H8XcmpYkIWQadW_Rz5o4c2gRM6pcJ5AydSy0&cl=ffffff&w=a"></script>
-</div>
 
