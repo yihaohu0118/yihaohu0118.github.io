@@ -25,13 +25,13 @@ I am currently an Algorithm Intern at **Meituan** (Core R&D Platform, Native Mul
 
 I have published/submitted papers at **NeurIPS 2025**, **ACL 2026**, **ICML 2026**, and top journals (Q1), and have received **7+ national/international competition awards** including the National Scholarship.
 
-# 🎓 Education
+# 🎓 Education {#education}
 
 - *2022.09 - Present*, B.Eng. in Computer Science, **Hainan University (海南大学)**, Hainan, China.
   - GPA: 3.93/4.0 (Top 1%, Rank 2/207)
   - Key Courses: Data Structures (97), Data Mining (97), Machine Learning (95), Introduction to AI (95), Operating Systems (95), OOP (98), Database Design (96)
 
-# 💼 Research & Internship Experience
+# 💼 Research & Internship Experience {#research-experience}
 
 - *2025.10 - Present*, Algorithm Intern (Native Multimodal LLM - LongCat), **Meituan (美团)**, Core R&D Platform, Shenzhen, China.
 - *Ongoing*, AI Agent & LLM Alignment Intern, **Alibaba Group, Amap (高德)**, Shenzhen, China.
@@ -39,7 +39,7 @@ I have published/submitted papers at **NeurIPS 2025**, **ACL 2026**, **ICML 2026
 - *2023.06 - Present*, Undergraduate Research Team Member (Group Leader), **Prof. Xiaodong BAI's Lab, Hainan University**.
 - *2024.10 - 2025.10*, Group Leader, **National-Level College Student Innovation & Entrepreneurship Training Program**.
 
-# 📜 Publications
+# 📜 Publications {#publications}
 
 **2026 (Submitted)**
 - **Y. Hu** et al., "**VulThinker: Deep Reasoning for Vulnerability Detection**", *ACL 2026*, Submitted. (1st author, CCF-A)
@@ -52,7 +52,7 @@ I have published/submitted papers at **NeurIPS 2025**, **ACL 2026**, **ICML 2026
 - **Y. Hu** et al., "**SDE-DET: A Precision Network for Shatian Pomelo Detection in Complex Orchard Environments**", *Smart Agriculture Technology*, Minor Revision, 2025. (1st author, Q1, IF: 5.7)
 - **Y. Hu** et al., "**A Multi-Strategy Framework for Enhancing Shatian Pomelo Detection in Real-World Orchards**", *Engineering Applications of Artificial Intelligence*, Second Review, 2025. (Co-1st author, Q1, IF: 7.7)
 
-# 🔬 Research Projects
+# 🔬 Research Projects {#research-projects}
 
 **Project 1: VulThinker — Deep Reasoning for Vulnerability Detection** *(2025.06 - 2025.10)*
 - Reformulated black-box binary detection into a verifiable causal reasoning framework via multi-view SFT with forward/backward counterfactual reasoning and generative repair.
@@ -78,7 +78,7 @@ I have published/submitted papers at **NeurIPS 2025**, **ACL 2026**, **ICML 2026
 - Designed an interpretable vision-language generation framework integrating CLIP, BLIP2, and ConvNeXt-XXLarge.
 - Applied LoRA-based parameter-efficient fine-tuning and attention weight re-calibration for improved modality interaction.
 
-# 🌟 Honors & Awards
+# 🌟 Honors & Awards {#honors-awards}
 
 🏅 **Scholarships & Honors**
 - **National Scholarship** (国家奖学金, 50th among all undergraduates in the whole school), 2025.10
@@ -96,7 +96,7 @@ I have published/submitted papers at **NeurIPS 2025**, **ACL 2026**, **ICML 2026
 - **National Finals – Second Prize**, 27th China Robot & AI Competition, 2025.08
 - **National Finals – Third Prize**, 27th China Robot & AI Competition, 2025.08
 
-# 🛠️ Skills
+# 🛠️ Skills {#skills}
 
 - **Programming**: C/C++ (Proficient), Python (Proficient), Matlab (Familiar)
 - **Tools**: Tableau, SPSS, AutoCAD, CATIA, Solidworks, Hyperworks
