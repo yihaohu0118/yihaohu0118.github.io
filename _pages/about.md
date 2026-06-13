@@ -25,6 +25,14 @@ I am currently an intern at **Ant Group (蚂蚁集团)**. Previously, I was an A
 
 My recent work spans **multimodal reasoning**, **visual multi-agent systems**, and **computer vision for agriculture**. I have also received **7+ national/international competition awards** including the National Scholarship.
 
+# 📰 News {#news}
+
+- *2026.05*: Two papers, **OmniVideo-R1** and **Dual Latent Memory for Visual Multi-agent System**, were accepted by **ICML 2026**.
+- *2026.02*: **OmniVideo-R1: Reinforcing Audio-visual Reasoning with Query Intention and Modality Attention** was released on arXiv.
+- *2026.01*: **Dual Latent Memory for Visual Multi-agent System** was released on arXiv.
+- *2025.10*: **A Multi-Strategy Framework for Enhancing Shatian Pomelo Detection in Real-World Orchards** was released on arXiv.
+- *2025.09*: **SDE-DET: A Precision Network for Shatian Pomelo Detection in Complex Orchard Environments** was released on arXiv.
+
 # 🎓 Education {#education}
 
 - *Present*, Ph.D. student in Artificial Intelligence, **Westlake University (西湖大学)**, Hangzhou, China.
@@ -32,23 +40,26 @@ My recent work spans **multimodal reasoning**, **visual multi-agent systems**, a
   - GPA: 3.93/4.0 (Top 1%, Rank 2/207)
   - Key Courses: Data Structures (97), Data Mining (97), Machine Learning (95), Introduction to AI (95), Operating Systems (95), OOP (98), Database Design (96)
 
-# 💼 Research & Internship Experience {#research-experience}
-
-- *Present*, Intern, **Ant Group (蚂蚁集团)**.
-- *2025.10 - 2026*, Algorithm Intern (Native Multimodal LLM - LongCat), **Meituan (美团)**, Core R&D Platform, Shenzhen, China.
-- *Previous*, AI Agent & LLM Alignment Intern, **Alibaba Group, Amap (高德)**, Shenzhen, China.
-- *2023.06 - Present*, Undergraduate Research Team Member (Group Leader), **Prof. Xiaodong BAI's Lab, Hainan University**.
-- *2024.10 - 2025.10*, Group Leader, **National-Level College Student Innovation & Entrepreneurship Training Program**.
-
-# 📜 Publications {#publications}
+# 📜 Selected Publications {#publications}
 
 **2026**
-- Z. Chen, J. Tao, R. Li, **Y. Hu**, et al., "**OmniVideo-R1: Reinforcing Audio-visual Reasoning with Query Intention and Modality Attention**", *arXiv preprint*, 2026. [[arXiv]](https://arxiv.org/abs/2602.05847)
-- X. Yu, C. Xu, Z. Chen, B. Yin, C. Yang, Y. He, **Y. Hu**, et al., "**Dual Latent Memory for Visual Multi-agent System**", *arXiv preprint*, 2026. [[arXiv]](https://arxiv.org/abs/2602.00471)
+- Z. Chen, J. Tao, R. Li, **Y. Hu**, et al., "**OmniVideo-R1: Reinforcing Audio-visual Reasoning with Query Intention and Modality Attention**", *International Conference on Machine Learning (ICML)*, 2026. [[arXiv]](https://arxiv.org/abs/2602.05847)
+- X. Yu, C. Xu, Z. Chen, B. Yin, C. Yang, Y. He, **Y. Hu**, et al., "**Dual Latent Memory for Visual Multi-agent System**", *International Conference on Machine Learning (ICML)*, 2026. [[arXiv]](https://arxiv.org/abs/2602.00471)
 
 **2025**
 - **Y. Hu**, P. Wang, X. Bai, S. Cai, H. Wang, H. Liu, A. Yang, X. Li, M. Ding, H. Liu, and J. Yao, "**SDE-DET: A Precision Network for Shatian Pomelo Detection in Complex Orchard Environments**", *arXiv preprint*, 2025. [[arXiv]](https://arxiv.org/abs/2509.19990)
 - P. Wang, **Y. Hu**, X. Bai, A. Yang, X. Li, M. Ding, and J. Yao, "**A Multi-Strategy Framework for Enhancing Shatian Pomelo Detection in Real-World Orchards**", *arXiv preprint*, 2025. [[arXiv]](https://arxiv.org/abs/2510.09948)
+
+# 💼 Internships {#internships}
+
+- *Present*, Intern, **Ant Group (蚂蚁集团)**.
+- *2025.10 - 2026*, Algorithm Intern (Native Multimodal LLM - LongCat), **Meituan (美团)**, Core R&D Platform, Shenzhen, China.
+- *Previous*, AI Agent & LLM Alignment Intern, **Alibaba Group, Amap (高德)**, Shenzhen, China.
+
+# 🔬 Research Experience {#research-experience}
+
+- *2023.06 - Present*, Undergraduate Research Team Member (Group Leader), **Prof. Xiaodong BAI's Lab, Hainan University**.
+- *2024.10 - 2025.10*, Group Leader, **National-Level College Student Innovation & Entrepreneurship Training Program**.
 
 # 🌟 Honors & Awards {#honors-awards}
 
