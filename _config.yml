@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yihao HU (胡益豪)"
-description: "Ph.D. Student @ Westlake University\n   \nArtificial Intelligence"
+description: "Westlake University | Ant Group\n   \nWorld Model · Agentic RL · Video Reasoning"
 repository               : "yihaohu0118/yihaohu0118.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yihao HU"
   avatar           : "images/yihao_head.png"
-  bio              : "AI Ph.D. Student @ Westlake University | Intern @ Ant Group"
+  bio              : "Westlake University | Ant Group"
   location         : "Hangzhou, China"
   employer         :
   pubmed           : 
