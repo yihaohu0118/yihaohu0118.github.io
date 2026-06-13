@@ -44,17 +44,17 @@ My recent work spans **agent-environment co-evolution**, **teacher-free VLM agen
 # 📜 Selected Publications {#publications}
 
 **2026**
-- F. A. Vasluianu, T. Seizinger, Z. Zhou, Z. Wu, R. Timofte, L. Beltrame, ..., **Y. Hu**, et al., "**Advances in Single-Image Shadow Removal: Results from the NTIRE 2026 Challenge**", *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)*, 2026.
-- Z. Chen, J. Tao, R. Li, **Y. Hu**, et al., "**OmniVideo-R1: Reinforcing Audio-visual Reasoning with Query Intention and Modality Attention**", *International Conference on Machine Learning (ICML)*, 2026. [[arXiv]](https://arxiv.org/abs/2602.05847)
-- X. Yu, C. Xu, Z. Chen, B. Yin, C. Yang, Y. He, **Y. Hu**, et al., "**Dual Latent Memory for Visual Multi-agent System**", *International Conference on Machine Learning (ICML)*, 2026. [[arXiv]](https://arxiv.org/abs/2602.00471)
-- P. Wang, **Y. Hu**, X. Liu, J. Yang, H. Wang, and Z. Wen, "**AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents**", *arXiv preprint*, 2026. [[arXiv]](https://arxiv.org/abs/2605.17933)
+- F. A. Vasluianu, T. Seizinger, Z. Zhou, Z. Wu, R. Timofte, L. Beltrame, ..., **Y. Hu**, et al., "**Advances in Single-Image Shadow Removal: Results from the NTIRE 2026 Challenge**", *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)*, 2026. [[Paper]](https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Vasluianu_Advances_in_Single-Image_Shadow_Removal_Results_from_the_NTIRE_2026_CVPRW_2026_paper.pdf)
+- Z. Chen, J. Tao, R. Li, **Y. Hu**, et al., "**OmniVideo-R1: Reinforcing Audio-visual Reasoning with Query Intention and Modality Attention**", *International Conference on Machine Learning (ICML)*, 2026. [[Paper]](https://arxiv.org/abs/2602.05847)
+- X. Yu, C. Xu, Z. Chen, B. Yin, C. Yang, Y. He, **Y. Hu**, et al., "**Dual Latent Memory for Visual Multi-agent System**", *International Conference on Machine Learning (ICML)*, 2026. [[Paper]](https://arxiv.org/abs/2602.00471)
+- P. Wang, **Y. Hu**, X. Liu, J. Yang, H. Wang, and Z. Wen, "**AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents**", *arXiv preprint*, 2026. [[Paper]](https://arxiv.org/abs/2605.17933)
 - M. Gao, Z. Yue, W. Yan, **Y. Hu**, W. Ji, S. Tang, J. Xiao, T. S. Chua, Y. Zhuang, et al., "**Counterfactual Evolution of Multimodal Datasets via Visual Programming**", *Advances in Neural Information Processing Systems (NeurIPS)*, 2026. [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2025/hash/75c2ec5f98d7b2f50ad68033d2c07086-Abstract-Conference.html)
 - **Y. Hu**, P. Wang, X. Bai, S. Cai, H. Wang, H. Liu, A. Yang, X. Li, M. Ding, H. Liu, and J. Yao, "**SDE-DET: A Precision Network for Shatian Pomelo Detection in Complex Orchard Environments**", *Smart Agricultural Technology*, 2026. [[Paper]](https://www.sciencedirect.com/science/article/pii/S2772375526001395)
-- **Y. Hu**, Z. Wen, X. Liu, P. Wang, X. Zhang, and W. Wu, "**SEAL: Synergistic Co-Evolution of Agents and Learning Environments**", *arXiv preprint*, 2026. [[arXiv]](https://arxiv.org/abs/2605.24426)
-- P. Wang, **Y. Hu**, X. Liu, and H. Wang, "**CFSR: Geometry-Conditioned Shadow Removal via Physical Disentanglement**", *arXiv preprint*, 2026. [[arXiv]](https://arxiv.org/abs/2604.18032)
+- **Y. Hu**, Z. Wen, X. Liu, P. Wang, X. Zhang, and W. Wu, "**SEAL: Synergistic Co-Evolution of Agents and Learning Environments**", *arXiv preprint*, 2026. [[Paper]](https://arxiv.org/abs/2605.24426)
+- P. Wang, **Y. Hu**, X. Liu, and H. Wang, "**CFSR: Geometry-Conditioned Shadow Removal via Physical Disentanglement**", *arXiv preprint*, 2026. [[Paper]](https://arxiv.org/abs/2604.18032)
 
 **2025**
-- P. Wang, **Y. Hu**, X. Bai, J. Yang, L. Zhou, A. Yang, X. Li, M. Ding, and J. Yao, "**A Multi-Strategy Framework for Enhancing Shatian Pomelo Detection in Real-World Orchards**", *arXiv preprint*, 2025. [[arXiv]](https://arxiv.org/abs/2510.09948)
+- P. Wang, **Y. Hu**, X. Bai, J. Yang, L. Zhou, A. Yang, X. Li, M. Ding, and J. Yao, "**A Multi-Strategy Framework for Enhancing Shatian Pomelo Detection in Real-World Orchards**", *arXiv preprint*, 2025. [[Paper]](https://arxiv.org/abs/2510.09948)
 
 # 💼 Internships {#internships}
 
