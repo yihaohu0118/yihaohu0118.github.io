@@ -30,6 +30,7 @@
       <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
       <a href="../images/wechat.png" target="_blank"><i class="fas fa-fw fa-comments" aria-hidden="true"></i></a>
       <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
+      {% if author.googlescholar %}<a href="{{ author.googlescholar }}" target="_blank"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i></a>{% endif %}
       {% if author.rednote %}<a href="{{ author.rednote }}" target="_blank"><i class="fab fa-fw fa-redo-alt" aria-hidden="true"></i></a>{% endif %}
     </div>
   </div>

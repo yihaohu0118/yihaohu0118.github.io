@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yihao HU (胡益豪)"
-description: "Undergraduate Student @ Hainan University\n   \nMajoring in Computer Science"
+description: "Ph.D. Student @ Westlake University\n   \nArtificial Intelligence"
 repository               : "yihaohu0118/yihaohu0118.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,11 +23,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yihao HU"
   avatar           : "images/yihao_head.png"
-  bio              : "CS Undergraduate @ Hainan University | Research Intern @ Meituan & Alibaba Amap"
-  location         : "Hainan, China"
+  bio              : "AI Ph.D. Student @ Westlake University | Intern @ Ant Group"
+  location         : "Hangzhou, China"
   employer         :
   pubmed           : 
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=2DGvhe8AAAAJ&hl=en"
   rednote          :
   email            : "mistletoehyh@gmail.com"
   researchgate     : 

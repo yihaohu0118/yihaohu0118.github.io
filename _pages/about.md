@@ -19,22 +19,24 @@ redirect_from:
 
 ### **About Me** 
 
-Hello! I'm **Yihao HU (胡益豪)**, a third-year undergraduate student majoring in Computer Science at **Hainan University** (GPA: 3.93/4.0, Top 1%, Rank 2/207), expected to graduate in 2026. My research focuses on **Multimodal AI**, **Reasoning LLM/VLM**, **AI Agent**, and **Computer Vision**.
+Hello! I'm **Yihao HU (胡益豪)**, a Ph.D. student in Artificial Intelligence at **Westlake University**. My research focuses on **Multimodal AI**, **Reasoning LLM/VLM**, **AI Agent**, and **Computer Vision**.
 
-I am currently an Algorithm Intern at **Meituan** (Core R&D Platform, Native Multimodal LLM - LongCat) and an AI Agent & LLM Alignment Intern at **Alibaba Group, Amap (高德)**. Previously, I was a Research Assistant at the **Digital Media Computing & Design Lab, Zhejiang University** (Prof. Juncheng LI).
+I am currently an intern at **Ant Group (蚂蚁集团)**. Previously, I was an Algorithm Intern at **Meituan** (Core R&D Platform, Native Multimodal LLM - LongCat), an AI Agent & LLM Alignment Intern at **Alibaba Group, Amap (高德)**, and a Research Assistant at the **Digital Media Computing & Design Lab, Zhejiang University** (Prof. Juncheng LI).
 
 I have published/submitted papers at **NeurIPS 2025**, **ACL 2026**, **ICML 2026**, and top journals (Q1), and have received **7+ national/international competition awards** including the National Scholarship.
 
 # 🎓 Education {#education}
 
-- *2022.09 - Present*, B.Eng. in Computer Science, **Hainan University (海南大学)**, Hainan, China.
+- *Present*, Ph.D. student in Artificial Intelligence, **Westlake University (西湖大学)**, Hangzhou, China.
+- *2022.09 - 2026.06*, B.Eng. in Computer Science, **Hainan University (海南大学)**, Hainan, China.
   - GPA: 3.93/4.0 (Top 1%, Rank 2/207)
   - Key Courses: Data Structures (97), Data Mining (97), Machine Learning (95), Introduction to AI (95), Operating Systems (95), OOP (98), Database Design (96)
 
 # 💼 Research & Internship Experience {#research-experience}
 
-- *2025.10 - Present*, Algorithm Intern (Native Multimodal LLM - LongCat), **Meituan (美团)**, Core R&D Platform, Shenzhen, China.
-- *Ongoing*, AI Agent & LLM Alignment Intern, **Alibaba Group, Amap (高德)**, Shenzhen, China.
+- *Present*, Intern, **Ant Group (蚂蚁集团)**.
+- *2025.10 - 2026*, Algorithm Intern (Native Multimodal LLM - LongCat), **Meituan (美团)**, Core R&D Platform, Shenzhen, China.
+- *Previous*, AI Agent & LLM Alignment Intern, **Alibaba Group, Amap (高德)**, Shenzhen, China.
 - *2025.02 - 2025.06*, Research Assistant, **Digital Media Computing & Design Lab, Zhejiang University** (Prof. Juncheng LI).
 - *2023.06 - Present*, Undergraduate Research Team Member (Group Leader), **Prof. Xiaodong BAI's Lab, Hainan University**.
 - *2024.10 - 2025.10*, Group Leader, **National-Level College Student Innovation & Entrepreneurship Training Program**.
@@ -104,4 +106,3 @@ I have published/submitted papers at **NeurIPS 2025**, **ACL 2026**, **ICML 2026
 - **Research Areas**: Multimodal LLM, Reasoning VLM, AI Agent, Computer Vision, RLHF/DPO
 
 ---
-
