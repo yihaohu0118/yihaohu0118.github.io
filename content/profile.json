@@ -1,0 +1,393 @@
+{
+  "name": "Yihao Hu",
+  "name_zh": "胡益豪",
+  "email": "mistletoehyh@gmail.com",
+  "scholar": "https://scholar.google.com/citations?user=2DGvhe8AAAAJ&hl=en",
+  "github": "https://github.com/yihaohu0118",
+  "avatar": "images/yihao_head.png",
+  "location": "Hangzhou, China",
+  "affiliation": "Westlake University",
+  "interests": [
+    "World Models",
+    "Agentic RL",
+    "Video Reasoning",
+    "Multimodal AI",
+    "AI Agents"
+  ],
+  "news": [
+    {
+      "date": "2026.10",
+      "text": "Released ViSS and ChronoReplay, exploring supervision and evidence access for streaming video intelligence.",
+      "links": [
+        {
+          "label": "ViSS",
+          "url": "https://yihaohu0118.github.io/ViSS/"
+        },
+        {
+          "label": "ChronoReplay",
+          "url": "https://yihaohu0118.github.io/ChronoReplay/"
+        }
+      ]
+    },
+    {
+      "date": "2026.10",
+      "text": "Released Trajectory2Gym: decision-grounded interaction synthesis for tool-use agents.",
+      "links": [
+        {
+          "label": "Project",
+          "url": "https://yihaohu0118.github.io/Trajectory2Gym/"
+        }
+      ]
+    },
+    {
+      "date": "2026.10",
+      "text": "Released UltraText Bench, a bilingual benchmark for visual text rendering in image generation.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2610.09823"
+        }
+      ]
+    },
+    {
+      "date": "2026.09",
+      "text": "Started my Ph.D. in Artificial Intelligence at Westlake University."
+    },
+    {
+      "date": "2026",
+      "text": "CogSENet is accepted by ECCV 2026.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2606.30030"
+        }
+      ]
+    },
+    {
+      "date": "2026.05",
+      "text": "Released SEAL and AtlasVA, studying agent–environment co-evolution and teacher-free visual skill memory.",
+      "links": [
+        {
+          "label": "SEAL",
+          "url": "https://arxiv.org/abs/2605.24426"
+        },
+        {
+          "label": "AtlasVA",
+          "url": "https://arxiv.org/abs/2605.17933"
+        }
+      ]
+    },
+    {
+      "date": "2026.05",
+      "text": "Two papers, OmniVideo-R1 and Dual Latent Memory, are accepted by ICML 2026."
+    },
+    {
+      "date": "2026.04",
+      "text": "Released CFSR: geometry-conditioned shadow removal via physical disentanglement.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2604.18032"
+        }
+      ]
+    },
+    {
+      "date": "2026.02",
+      "text": "Released OmniVideo-R1 and Dual Latent Memory for visual multi-agent systems."
+    }
+  ],
+  "education": [
+    {
+      "school": "Westlake University",
+      "degree": "Ph.D. in Artificial Intelligence",
+      "date": "2026 — 2031 (expected)",
+      "detail": "Advisor: Prof. Tao Lin",
+      "url": "https://scholar.google.ch/citations?user=QE9pa_cAAAAJ&hl=en",
+      "logo": "assets/homepage/logos/westlake.png",
+      "short": "WU"
+    },
+    {
+      "school": "Hainan University",
+      "degree": "Computer Science",
+      "date": "2022 — 2026",
+      "detail": "Undergraduate · Hainan, China",
+      "short": "HNU"
+    }
+  ],
+  "internships": [
+    {
+      "company": "Ant Group",
+      "role": "Research Intern",
+      "date": "2026.03 — Present",
+      "detail": "Agentic learning & tool-use agents",
+      "mentors": "Tao Lin, Zhihao Wen, Wei Wu",
+      "short": "ANT",
+      "logo_class": "ant"
+    },
+    {
+      "company": "Meituan · LongCat",
+      "role": "Algorithm Intern",
+      "date": "2025.10 — 2026.03",
+      "detail": "Native multimodal large language models",
+      "mentors": "Manyuan Zhang",
+      "short": "美团",
+      "logo_class": "meituan"
+    },
+    {
+      "company": "Alibaba · Amap",
+      "role": "Research Intern",
+      "date": "Previous",
+      "detail": "AI agents & LLM alignment",
+      "short": "阿里",
+      "logo_class": "alibaba"
+    }
+  ],
+  "publications": [
+    {
+      "id": "trajectory2gym",
+      "short": "Trajectory2Gym",
+      "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
+      "authors": "Yihao Hu, Zhihao Wen, Yitong Lin, Siyuan Lu, Pan Wang, Wei Wu, Jiang-Ming Yang, Tao Lin",
+      "venue": "arXiv 2026",
+      "year": 2026,
+      "category": "agents",
+      "selected": true,
+      "image": "assets/homepage/figures/trajectory2gym.webp",
+      "description": "Constructing executable interactions with compositional coverage and decision-grounded supervision for tool-use agents.",
+      "paper": "https://arxiv.org/abs/2610.33568",
+      "code": "https://github.com/yihaohu0118/Trajectory2Gym",
+      "project": "https://yihaohu0118.github.io/Trajectory2Gym/"
+    },
+    {
+      "id": "viss",
+      "short": "ViSS",
+      "title": "Supervising the Visible State: Separating Representation from View Selection in Streaming Video",
+      "authors": "Yihao Hu*, Pan Wang*, Yitong Lin*, Zhihao Wen, Deyuan Liu, Hang Wang, Mingda Wan, Yiwen Zhao, Yutong Li, Yuchen Mao, Tao Lin",
+      "venue": "arXiv 2026",
+      "year": 2026,
+      "category": "multimodal",
+      "selected": true,
+      "image": "assets/homepage/figures/viss.svg",
+      "description": "Separating what a video model learns to preserve from the causal evidence it acquires at inference time.",
+      "paper": "https://arxiv.org/abs/2610.34926",
+      "code": "https://github.com/yihaohu0118/ViSS",
+      "project": "https://yihaohu0118.github.io/ViSS/"
+    },
+    {
+      "id": "chronoreplay",
+      "short": "ChronoReplay",
+      "title": "ChronoReplay: One Answer Interface Is Not Enough for Streaming Spatial Intelligence",
+      "authors": "Yihao Hu*, Yitong Lin*, Pan Wang*, Zhihao Wen, Hang Wang, Yiwen Zhao, Deyuan Liu, Yutong Li, Mingda Wan, Yuchen Mao, Tao Lin",
+      "venue": "arXiv 2026",
+      "year": 2026,
+      "category": "multimodal",
+      "selected": true,
+      "image": "assets/homepage/figures/chronoreplay.webp",
+      "description": "Chronological replay of complementary spatial supervision for categorical, metric, and temporal reasoning.",
+      "paper": "https://arxiv.org/abs/2610.34283",
+      "code": "https://github.com/yihaohu0118/ChronoReplay",
+      "project": "https://yihaohu0118.github.io/ChronoReplay/"
+    },
+    {
+      "id": "seal",
+      "short": "SEAL",
+      "title": "SEAL: Synergistic Co-Evolution of Agents and Learning Environments",
+      "authors": "Yihao Hu, Zhihao Wen, Pan Wang, Xiujin Liu, Yitong Lin, Xin Zhang, Wei Wu",
+      "venue": "arXiv 2026",
+      "year": 2026,
+      "category": "agents",
+      "selected": true,
+      "image": "assets/homepage/figures/seal.webp",
+      "description": "Using verifier-grounded failure diagnoses to coordinate agent policy learning and adaptation of the learning environment.",
+      "paper": "https://arxiv.org/abs/2605.24426",
+      "code": "https://github.com/yihaohu0118/SEAL",
+      "project": "https://yihaohu0118.github.io/SEAL/"
+    },
+    {
+      "id": "atlasva",
+      "short": "AtlasVA",
+      "title": "AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents",
+      "authors": "Pan Wang*, Yihao Hu*, Xiujin Liu, Jingchu Yang, Hang Wang, Zhihao Wen",
+      "venue": "arXiv 2026",
+      "year": 2026,
+      "category": "agents",
+      "selected": true,
+      "image": "assets/homepage/figures/atlasva.webp",
+      "description": "Keeping experience visually grounded through spatial heatmaps, visual exemplars, and reusable symbolic skills.",
+      "paper": "https://arxiv.org/abs/2605.17933",
+      "code": "https://github.com/wangpan-ustc/AtlasVA",
+      "project": "https://wangpan-ustc.github.io/AtlasVA/"
+    },
+    {
+      "id": "omnivideo",
+      "short": "OmniVideo-R1",
+      "title": "OmniVideo-R1: Reinforcing Audio-visual Reasoning with Query Intention and Modality Attention",
+      "authors": "Zhangquan Chen, Jiale Tao, Ruihuang Li, Yihao Hu, Ruitao Chen, Zhantao Yang, Xinlei Yu, Haodong Jing, Manyuan Zhang, Shuai Shao, Biao Wang, Qinglin Lu, Ruqi Huang",
+      "venue": "ICML 2026",
+      "year": 2026,
+      "category": "multimodal",
+      "selected": true,
+      "image": "assets/homepage/figures/omnivideo.svg",
+      "description": "Query-intensive grounding and modality-attentive fusion for reasoning with complementary audio and visual cues.",
+      "paper": "https://arxiv.org/abs/2602.05847"
+    },
+    {
+      "id": "cogsenet",
+      "short": "CogSENet",
+      "title": "CogSENet: Blind Image Deblurring with Blur-Conditioned Semantic Routing and Explicit Frequency Fusion",
+      "authors": "Pan Wang*, Yihao Hu*, Xiujin Liu",
+      "venue": "ECCV 2026",
+      "year": 2026,
+      "category": "vision",
+      "selected": true,
+      "image": "assets/homepage/figures/cogsenet.svg",
+      "description": "Semantic routing and explicit frequency fusion for recovering image structure under spatially varying blur.",
+      "paper": "https://arxiv.org/abs/2606.30030"
+    },
+    {
+      "id": "dual-memory",
+      "short": "Dual Latent Memory",
+      "title": "Dual Latent Memory for Visual Multi-agent System",
+      "authors": "Xinlei Yu, Chengming Xu, Zhangquan Chen, Bo Yin, Cheng Yang, Yongbo He, Yihao Hu, Jiangning Zhang, Cheng Tan, Xiaobin Hu, Shuicheng Yan",
+      "venue": "ICML 2026",
+      "year": 2026,
+      "category": "multimodal",
+      "selected": true,
+      "image": "assets/homepage/figures/dual-memory.svg",
+      "description": "Dual latent memories that retain perceptual and reasoning information during visual multi-agent collaboration.",
+      "paper": "https://arxiv.org/abs/2602.00471"
+    },
+    {
+      "id": "ultratext",
+      "short": "UltraText Bench",
+      "title": "UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation",
+      "authors": "Deyuan Liu*, Yihao Hu*, Jingxuan Zhang*, Xingying Li*, Jun Xie*, et al.",
+      "venue": "arXiv 2026",
+      "year": 2026,
+      "category": "multimodal",
+      "paper": "https://arxiv.org/abs/2610.09823"
+    },
+    {
+      "id": "par",
+      "short": "PAR",
+      "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
+      "authors": "Pan Wang*, Yihao Hu*, Guangyuan Dong*, Yitong Lin, Hang Wang, Zimi Liu, Zhihao Wen, Jianshe Li, Jiang-Ming Yang, Wei Wu, Yongqi Tong",
+      "venue": "arXiv 2026",
+      "year": 2026,
+      "category": "agents",
+      "paper": "https://arxiv.org/abs/2610.27628"
+    },
+    {
+      "id": "reuse",
+      "title": "When Can LLM Reasoning Reliably Reuse Intermediate Results?",
+      "authors": "Deyuan Liu, Zecheng Wang, Xuanyi Liu, Jungang Li, Yihao Hu, Mingjie Tang, Bryan Dai, Jie Fu",
+      "venue": "arXiv 2026",
+      "year": 2026,
+      "category": "agents",
+      "paper": "https://arxiv.org/abs/2610.27662"
+    },
+    {
+      "id": "user-turn",
+      "title": "Towards Better Agents for Multi-Turn User Interaction: The Next User Turn Is More Than Context",
+      "authors": "Yiwen Zhao, Zhihao Wen, Yuchen Mao, Mingxuan Jiang, Yihao Hu, Pan Wang, Xin Zhang, Wei Wu",
+      "venue": "arXiv 2026",
+      "year": 2026,
+      "category": "agents",
+      "paper": "https://arxiv.org/abs/2608.17499"
+    },
+    {
+      "id": "darc",
+      "short": "DARC",
+      "title": "Diagnosis Before Recovery: Turning Agent Failures into Selective Self-Correction",
+      "authors": "Pan Wang, Yihao Hu, Hang Wang, Zirui Lv, Xin Zhang, Jianshe Li, Jiang-Ming Yang, Wei Wu, Yongqi Tong",
+      "venue": "arXiv 2026",
+      "year": 2026,
+      "category": "agents",
+      "image": "assets/homepage/figures/darc.webp",
+      "paper": "https://arxiv.org/abs/2608.11772"
+    },
+    {
+      "id": "cfsr",
+      "short": "CFSR",
+      "title": "CFSR: Geometry-Conditioned Shadow Removal via Physical Disentanglement",
+      "authors": "Pan Wang*, Yihao Hu*, Xiujin Liu, Hang Wang",
+      "venue": "arXiv 2026",
+      "year": 2026,
+      "category": "vision",
+      "paper": "https://arxiv.org/abs/2604.18032"
+    },
+    {
+      "id": "ntire",
+      "title": "Advances in Single-Image Shadow Removal: Results from the NTIRE 2026 Challenge",
+      "authors": "Florin-Alexandru Vasluianu et al. (including Yihao Hu)",
+      "venue": "CVPRW 2026",
+      "year": 2026,
+      "category": "vision",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/html/Vasluianu_Advances_in_Single-Image_Shadow_Removal_Results_from_the_NTIRE_2026_CVPRW_2026_paper.html"
+    },
+    {
+      "id": "sde-det",
+      "short": "SDE-DET",
+      "title": "SDE-DET: A Precision Network for Shatian Pomelo Detection in Complex Orchard Environments",
+      "authors": "Yihao Hu, P. Wang, X. Bai, S. Cai, H. Wang, H. Liu, A. Yang, X. Li, M. Ding, H. Liu, J. Yao",
+      "venue": "Smart Agricultural Technology 2026",
+      "year": 2026,
+      "category": "vision",
+      "paper": "https://www.sciencedirect.com/science/article/pii/S2772375526001395",
+      "code": "https://github.com/yihaohu0118/SDE-DET"
+    },
+    {
+      "id": "scope",
+      "short": "SCOPE",
+      "title": "Counterfactual Evolution of Multimodal Datasets via Visual Programming",
+      "authors": "Minghe Gao, Zhongqi Yue, Wenjie Yan, Yihao Hu, Wei Ji, Siliang Tang, Jun Xiao, Tat-Seng Chua, Yueting Zhuang, Juncheng Li",
+      "venue": "NeurIPS 2025",
+      "year": 2025,
+      "category": "multimodal",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/75c2ec5f98d7b2f50ad68033d2c07086-Abstract-Conference.html"
+    },
+    {
+      "id": "reas-det",
+      "short": "REAS-Det",
+      "title": "A Multi-Strategy Framework for Enhancing Shatian Pomelo Detection in Real-World Orchards",
+      "authors": "Pan Wang, Yihao Hu, Xiaodong Bai, Jingchu Yang, Leyi Zhou, Aiping Yang, Xiangxiang Li, Meiping Ding, Jianguo Yao",
+      "venue": "arXiv 2025",
+      "year": 2025,
+      "category": "vision",
+      "paper": "https://arxiv.org/abs/2510.09948"
+    }
+  ],
+  "honors": [
+    {
+      "title": "National Scholarship",
+      "detail": "国家奖学金",
+      "date": "2025"
+    },
+    {
+      "title": "Global Campus AI Algorithm Elite Competition",
+      "detail": "International Finals · First Prize",
+      "date": "2023"
+    },
+    {
+      "title": "National College Mathematics Competition",
+      "detail": "National First Prize",
+      "date": "2023"
+    },
+    {
+      "title": "China Collegiate Computer Programming Competition",
+      "detail": "National Second Prize",
+      "date": "2024"
+    },
+    {
+      "title": "Global Campus AI Algorithm Elite Competition",
+      "detail": "International Finals · Second & Third Prizes",
+      "date": "2024"
+    },
+    {
+      "title": "China Robot & AI Competition",
+      "detail": "National Finals · Second & Third Prizes",
+      "date": "2025"
+    }
+  ],
+  "build_id": "20261121T022659Z-b5a6bc2ede"
+}
