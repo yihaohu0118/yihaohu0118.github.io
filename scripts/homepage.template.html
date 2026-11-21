@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark light">
-  <meta name="theme-color" content="#101010">
+  <meta name="theme-color" content="#101114">
   <meta name="homepage-build" content="@@build_id@@">
   <title>@@name@@ · Agents & Multimodal Intelligence</title>
   <meta name="description" content="Yihao Hu (胡益豪), Ph.D. student at Westlake University. Research in world models, agentic reinforcement learning, video reasoning, multimodal AI, and AI agents.">
@@ -18,9 +18,11 @@
   <link rel="icon" href="assets/homepage/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/homepage/fonts/WorkingSheet-Hand.ttf" as="font" type="font/ttf" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/homepage/style.css?v=@@build_id@@">
   <script type="application/ld+json">@@structured_data@@</script>
+  <script src="assets/homepage/name-interaction.js?v=@@build_id@@" defer></script>
   <script src="assets/homepage/main.js?v=@@build_id@@" defer></script>
 </head>
 <body>
@@ -30,7 +32,7 @@
   <header class="site-header">
     <a class="wordmark" href="#about" aria-label="Yihao Hu, home">YIHAO<span class="wordmark-pixels" aria-hidden="true"><i></i><i></i><i></i></span></a>
     <nav class="main-nav" aria-label="Main navigation">
-      <a href="#about" aria-current="location">About</a><a href="#news">News</a><a href="#education">Education</a><a href="#internships">Experience</a><a href="#publications">Publications</a>
+      <a href="#about" aria-current="location">About</a><a href="#news">News</a><a href="#education">Education</a><a href="#internships" aria-label="Experience"><span class="nav-full">Experience</span><span class="nav-short" aria-hidden="true">Work</span></a><a href="#publications">Publications</a>
     </nav>
     <button class="theme-toggle js-only" type="button" aria-label="Switch to light theme" title="Switch theme">
       <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4 19 5"/></svg>
@@ -45,7 +47,7 @@
         <button class="portrait-badge" type="button" aria-label="Flip Yihao Hu's profile card" aria-pressed="false">
           <span class="badge-front badge-face">
             <span class="badge-brand"><span>WESTLAKE</span><span>RESEARCHER</span></span>
-            <span class="portrait-photo"><span class="avatar-monogram" aria-hidden="true">YH<span>胡益豪</span></span><img class="avatar" src="@@avatar@@" alt="Yihao Hu's GitHub profile image" width="600" height="680" fetchpriority="high"></span>
+            <span class="portrait-photo"><span class="avatar-monogram" aria-hidden="true">YH<span>胡益豪</span></span><img class="avatar" src="@@avatar@@" alt="Yihao Hu portrait" width="600" height="680" fetchpriority="high"></span>
             <span class="badge-identity"><span class="badge-name">Yihao Hu <span lang="zh-CN">胡益豪</span></span><span class="badge-role">Ph.D. Student · Artificial Intelligence</span></span>
             <span class="badge-bottom"><span>HANGZHOU, CN</span><span class="barcode" aria-hidden="true"></span><span>YH</span></span>
           </span>
@@ -60,7 +62,7 @@
       </div>
       <div class="hero-copy">
         <p class="eyebrow">Westlake University <span>Hangzhou, China</span></p>
-        <h1 id="name"><span class="sr-only">@@name@@ · @@name_zh@@</span><span class="name-en" aria-hidden="true" data-name="Yihao Hu">Yihao Hu<span class="name-cursor"></span></span><span class="name-zh" lang="zh-CN" aria-hidden="true">@@name_zh@@<span class="name-dots">···</span></span></h1>
+        <h1 id="name" class="interactive-name" data-interactive-name><span class="sr-only">@@name@@ · @@name_zh@@</span><span class="name-line name-en" aria-hidden="true" data-name="@@name@@"><span class="name-text">@@name@@</span></span><span class="name-line name-zh" lang="zh-CN" aria-hidden="true" data-name="@@name_zh@@"><span class="name-text">@@name_zh@@</span></span></h1>
         <div class="introduction">
           <p>Hello! I'm <strong>Yihao Hu (胡益豪)</strong>, a Ph.D. student in Artificial Intelligence at <a href="https://www.westlake.edu.cn/" target="_blank" rel="noopener noreferrer">Westlake University</a>, advised by Prof. <a href="https://scholar.google.ch/citations?user=QE9pa_cAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Tao Lin</a>. I received my undergraduate degree in Computer Science from Hainan University.</p>
           <p>I am currently a research intern at <strong>Ant Group</strong>. Previously, I worked with <strong>Meituan's LongCat team</strong> on native multimodal LLMs and with <strong>Alibaba Amap</strong> on AI agents and LLM alignment.</p>

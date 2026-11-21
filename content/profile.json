@@ -4,7 +4,7 @@
   "email": "mistletoehyh@gmail.com",
   "scholar": "https://scholar.google.com/citations?user=2DGvhe8AAAAJ&hl=en",
   "github": "https://github.com/yihaohu0118",
-  "avatar": "images/yihao_head.png",
+  "avatar": "assets/homepage/portrait.png",
   "location": "Hangzhou, China",
   "affiliation": "Westlake University",
   "interests": [
@@ -389,5 +389,5 @@
       "date": "2025"
     }
   ],
-  "build_id": "20261121T023229Z-a7af4fc278"
+  "build_id": "20261121T031148Z-5b0789f7d8"
 }

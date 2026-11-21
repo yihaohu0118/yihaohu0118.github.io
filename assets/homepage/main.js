@@ -8,17 +8,12 @@
   const themeButton = document.querySelector('.theme-toggle');
   let motionEnabled = !reducedMotion.matches;
   let manuallyDisabledMotion = false;
-  let nameTimer;
 
   function setMotion(enabled) {
     motionEnabled = enabled;
     root.dataset.motion = enabled ? 'on' : 'off';
     motionButton.setAttribute('aria-pressed', String(enabled));
     motionButton.textContent = enabled ? 'Motion on' : 'Motion off';
-    if (!enabled) {
-      clearInterval(nameTimer);
-      document.querySelector('[data-name]').firstChild.textContent = 'Yihao Hu';
-    }
   }
   setMotion(motionEnabled);
   motionButton.addEventListener('click', () => {
@@ -31,26 +26,8 @@
     const theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
     root.dataset.theme = theme;
     themeButton.setAttribute('aria-label', `Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`);
-    document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#101010' : '#f7f7f4';
+    document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#101114' : '#f8f9fb';
   });
-
-  // Short, bounded name reveal; no ongoing text changes for assistive technologies.
-  const name = document.querySelector('[data-name]');
-  if (motionEnabled) {
-    const original = name.dataset.name;
-    const glyphs = '01_+./';
-    let frame = 0;
-    nameTimer = setInterval(() => {
-      frame += 1;
-      name.firstChild.textContent = [...original].map((char, index) =>
-        char === ' ' || index < frame / 1.8 ? char : glyphs[Math.floor(Math.random() * glyphs.length)]
-      ).join('');
-      if (frame > original.length * 1.8 + 1) {
-        clearInterval(nameTimer);
-        name.firstChild.textContent = original;
-      }
-    }, 38);
-  }
 
   const avatar = document.querySelector('.avatar');
   const showAvatar = () => { if (avatar.naturalWidth) avatar.classList.add('loaded'); };

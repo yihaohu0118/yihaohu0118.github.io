@@ -1,6 +1,6 @@
 # Yihao Hu homepage redesign
 
-The redesign follows the dark, monochrome academic presentation of https://donahowe.github.io/: a bilingual introduction, hanging profile card, scrollable news, ticket-shaped education and experience entries, and a horizontal publication collection. The HTML, CSS, JavaScript, diagrams, and brand treatment were implemented independently; no reference-site code, fonts, photographs, or vendor components were copied.
+The redesign follows the dark, monochrome academic presentation of https://donahowe.github.io/: a bilingual introduction, hanging profile card, scrollable news, ticket-shaped education and experience entries, and a horizontal publication collection. The HTML, CSS, JavaScript, diagrams, and brand treatment were implemented independently. The Working Sheet reading fonts are reused under their original MIT license, with the complete notice in `assets/homepage/fonts/`.
 
 ## Preview and maintain
 
@@ -13,9 +13,15 @@ python3 scripts/build.py
 python3 scripts/check.py
 ```
 
-Google Fonts and the verified GitHub avatar are the only external display resources. Local system fonts and an initials card provide fallbacks if either service is unavailable. All paper figures and conceptual diagrams are local assets. The four independently drawn SVG publication summaries are explicitly captioned “Conceptual overview”; they are not presented as original paper figures.
+Space Grotesk is loaded through Google Fonts, with a system sans-serif fallback. The Working Sheet reading faces, the original portrait, and all paper figures and conceptual diagrams are local assets. The four independently drawn SVG publication summaries are explicitly captioned “Conceptual overview”; they are not presented as original paper figures.
 
 The initial theme is dark. Theme changes apply to the current page. Reduced motion follows the operating-system preference; the footer can also turn motion off. Cards can be opened with the keyboard, dialogs support Escape and return focus to their trigger, and all contact and paper links remain ordinary HTML links.
+
+## Interactive lettering
+
+`assets/homepage/name-interaction.js` adds an independently implemented canvas treatment to both HTML name lines: a nearby letter receives a thin selection frame, corner handles, size labels, a dashed outline, and a small set of animated pixels. Mouse dragging moves an individual letter; release returns it with spring motion. A touch tap gives brief feedback without capturing vertical scrolling.
+
+The underlying heading remains real, readable HTML for assistive technology and browsers without JavaScript. Rendering is capped at device pixel ratio 2, sleeps after all motion settles, and stops when the heading is off screen or the document is hidden. The existing motion toggle and operating-system reduced-motion setting disable the effect. Theme changes redraw the lettering with the matching foreground color. The reading fonts are locally hosted, unmodified MIT-licensed Working Sheet fonts; their source and checksums are recorded in `assets/homepage/fonts/README.md`.
 
 ## Integrate into the existing GitHub Pages repository
 
@@ -47,7 +53,7 @@ In the separate redesign source directory, `发布主页.command` runs `scripts/
 
 The publisher integrates the redesign, reuses a verified original portrait from `_config.yml` when available, adds a unique build marker, runs the supplied build and checks, stages only homepage changes, commits, verifies that the remote branch has not changed, and pushes without force. It polls the existing Pages workflow and the public site for the exact build marker. A `publish-result.json` receipt records the actual commit and publication state. Source checkouts are retained for review or recovery. `--prepare-only` stops before committing; `--dry-run` prints the steps without network access or writes.
 
-The launcher has not been run outside the restricted authoring process. It cannot change that process's permission policy; it exits immediately if `CODEX_SANDBOX_NETWORK_DISABLED=1`. Its syntax, dry-run behavior, and policy guard have been checked; remote authentication, GitHub Pages execution, and publication remain unverified until it runs with ordinary network access.
+The launcher was used successfully for the initial publication. It exits immediately if `CODEX_SANDBOX_NETWORK_DISABLED=1` and does not change execution permissions. Follow-up updates can also be published through the authenticated GitHub Git-database API when the Git transport is unavailable: upload the checked blobs/tree, create the commit, and update the existing branch with `force: false`. The Pages workflow and exact public build marker are then verified.
 
 ## Content and asset provenance
 
@@ -56,11 +62,12 @@ The launcher has not been run outside the restricted authoring process. It canno
 - ViSS, ChronoReplay, Trajectory2Gym, SEAL, AtlasVA, OmniVideo-R1, and CogSENet were checked against their public arXiv/project/repository records. Other paper URLs and metadata are retained from the existing homepage and local CV. Preprints remain labeled as preprints; submission to a future conference is not presented as acceptance.
 - SCOPE is correctly listed as **NeurIPS 2025**, matching its official proceedings, correcting the old homepage's year: https://proceedings.neurips.cc/paper_files/paper/2025/hash/75c2ec5f98d7b2f50ad68033d2c07086-Abstract-Conference.html
 - Trajectory2Gym, SEAL, DARC, and AtlasVA figures and the Westlake logo were obtained from the user's local research presentation dated 2026-11-12. ChronoReplay's overview was obtained from the user's local paper materials. Raster figures were resized and compressed as WebP without cropping; originals outside this directory were not modified.
-- The profile image uses the verified public GitHub avatar for user ID `150792618`. The original homepage's portrait asset could not be retrieved in this environment. Replace `avatar` in `content/profile.json` with its existing local image path when that source is available; keep the existing portrait file unchanged.
+- The profile uses an unmodified copy of the original homepage's `images/yihao_head.png`, retained locally as `assets/homepage/portrait.png`. Original repository images remain in place.
 - Scholarship and competition information comes from the existing homepage. Inconsistent class-rank figures in different source documents were omitted pending clarification.
+- DARC's conference label is **KDD 2026**, following the author's correction on 2026-11-21.
 
 ## Verification in the authoring environment
 
 Python structural/content/resource checks and JavaScript syntax checks passed. The installer was exercised against an isolated Jekyll fixture, including dry run, original-source preservation, repeated installation, and refusal of root-output collisions.
 
-The authoring environment prevents local network listeners and outbound shell networking; launching the installed browser also failed. Desktop/mobile rendering and pointer interaction have therefore not been verified in a real browser. GitHub access is not connected, so no remote commit or deployment has been performed.
+After execution permissions were updated, real Chrome browser checks covered both name lines, hover cleanup, exact spring return, motion controls, operating-system reduced motion, light/dark rendering, touch feedback, vertical scrolling, publication filtering with the retained KDD 2026 correction, modal Escape dismissal, screen-reader heading semantics, and the no-JavaScript fallback. Responsive checks at 320, 375, 390, 768, 1024, and 1440 pixels confirmed no page or navigation overflow. Browser rendering was also inspected in desktop, mobile, hover, drag, and light-theme screenshots.
