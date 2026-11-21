@@ -25,7 +25,7 @@ def links(paper):
 
 
 def paper_card(paper):
-    note = "Conceptual overview" if paper["image"].endswith(".svg") else "Research overview"
+    note = "Research overview"
     return f'''<article class="paper-card" data-paper="{esc(paper['id'])}" data-category="{esc(paper['category'])}">
       <div class="paper-topline"><span class="venue">{esc(paper['venue'])}</span><span class="paper-category">{esc(paper['category'])}</span></div>
       <button class="paper-image" type="button" data-expand aria-label="Enlarge {esc(paper['short'])}">
@@ -42,8 +42,7 @@ def paper_card(paper):
 
 
 def education_ticket(item):
-    mark = (f'<img src="{esc(item["logo"])}" alt="{esc(item["school"])} logo" width="100" height="70" loading="lazy">'
-            if item.get("logo") else f'<span class="school-monogram">{esc(item["short"])}</span>')
+    mark = f'<img src="{esc(item["logo"])}" alt="{esc(item["school"])} logo" width="100" height="80" loading="lazy" decoding="async">'
     detail = (f'<a href="{esc(item["url"])}" target="_blank" rel="noopener noreferrer">{esc(item["detail"])}</a>'
               if item.get("url") else esc(item["detail"]))
     return f'''<article class="ticket">
@@ -56,8 +55,9 @@ def education_ticket(item):
 
 def internship_ticket(item):
     mentor = f'<p class="ticket-mentor">Mentors: {esc(item["mentors"])}</p>' if item.get("mentors") else ""
+    mark = f'<img src="{esc(item["logo"])}" alt="{esc(item["company"])} logo" width="110" height="80" loading="lazy" decoding="async">'
     return f'''<article class="ticket internship-ticket">
-      <div class="ticket-main"><div class="institution-mark company-mark {esc(item['logo_class'])}" aria-hidden="true">{esc(item['short'])}</div>
+      <div class="ticket-main"><div class="institution-mark company-mark {esc(item['logo_class'])}">{mark}</div>
         <div class="ticket-copy"><p class="ticket-role">{esc(item['role'])} @</p><h3>{esc(item['company'])}</h3><p>{esc(item['detail'])}</p>{mentor}</div>
       </div><div class="ticket-stub"><span>{esc(item['date'])}</span><span class="stub-cut" aria-hidden="true"></span></div>
     </article>'''

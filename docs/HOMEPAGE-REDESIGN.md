@@ -1,6 +1,6 @@
 # Yihao Hu homepage redesign
 
-The redesign follows the dark, monochrome academic presentation of https://donahowe.github.io/: a bilingual introduction, hanging profile card, scrollable news, ticket-shaped education and experience entries, and a horizontal publication collection. The HTML, CSS, JavaScript, diagrams, and brand treatment were implemented independently. The Working Sheet reading fonts are reused under their original MIT license, with the complete notice in `assets/homepage/fonts/`.
+The redesign follows the dark, monochrome academic presentation of https://donahowe.github.io/: a bilingual introduction, hanging profile card, scrollable news, ticket-shaped education and experience entries, and a horizontal publication collection. The HTML, CSS, JavaScript, and interaction design were implemented independently. Institution logos come from official websites, and selected-publication figures are screenshots of the original arXiv PDFs. The Working Sheet reading fonts are reused under their original MIT license, with the complete notice in `assets/homepage/fonts/`.
 
 ## Preview and maintain
 
@@ -13,7 +13,7 @@ python3 scripts/build.py
 python3 scripts/check.py
 ```
 
-Space Grotesk is loaded through Google Fonts, with a system sans-serif fallback. The Working Sheet reading faces, the original portrait, and all paper figures and conceptual diagrams are local assets. The four independently drawn SVG publication summaries are explicitly captioned “Conceptual overview”; they are not presented as original paper figures.
+Space Grotesk is loaded through Google Fonts, with a system sans-serif fallback. The Working Sheet reading faces, original portrait, institution logos, and all nine selected-paper figures are local assets. Publication images are rendered directly from arXiv PDFs as lossless WebP, cropped around each complete method diagram. `assets/homepage/figures/SOURCES.json` records the versioned PDF URL, page, figure, crop coordinates, and SHA-256 hashes. The earlier conceptual images remain unused compatibility assets; no current publication card references them.
 
 The initial theme is dark. Theme changes apply to the current page. Reduced motion follows the operating-system preference; the footer can also turn motion off. Cards can be opened with the keyboard, dialogs support Escape and return focus to their trigger, and all contact and paper links remain ordinary HTML links.
 
@@ -61,13 +61,19 @@ The launcher was used successfully for the initial publication. It exits immedia
 - Contact details, Scholar ID, education dates, internship dates, academic service, and recent publications were checked against the user's local November 2026 CV in `yihao_hu_cv_updated.zip`.
 - ViSS, ChronoReplay, Trajectory2Gym, SEAL, AtlasVA, OmniVideo-R1, and CogSENet were checked against their public arXiv/project/repository records. Other paper URLs and metadata are retained from the existing homepage and local CV. Preprints remain labeled as preprints; submission to a future conference is not presented as acceptance.
 - SCOPE is correctly listed as **NeurIPS 2025**, matching its official proceedings, correcting the old homepage's year: https://proceedings.neurips.cc/paper_files/paper/2025/hash/75c2ec5f98d7b2f50ad68033d2c07086-Abstract-Conference.html
-- Trajectory2Gym, SEAL, DARC, and AtlasVA figures and the Westlake logo were obtained from the user's local research presentation dated 2026-11-12. ChronoReplay's overview was obtained from the user's local paper materials. Raster figures were resized and compressed as WebP without cropping; originals outside this directory were not modified.
+- All nine selected-publication images, including DARC, now come directly from the corresponding arXiv PDFs. Screenshots preserve the original graphics without redrawing. Exact source versions, crop coordinates, and checksums are in `assets/homepage/figures/SOURCES.json`; original PDFs were not modified.
+- Hainan University's shield is a lossless crop of the image embedded in its official website's logo SVG. Meituan and Ant Group use unmodified official website PNGs. Source pages, download URLs, preparation details, and checksums are in `assets/homepage/logos/SOURCES.json`. The Westlake logo is retained from the user's local research presentation dated 2026-11-12.
 - The profile uses an unmodified copy of the original homepage's `images/yihao_head.png`, retained locally as `assets/homepage/portrait.png`. Original repository images remain in place.
 - Scholarship and competition information comes from the existing homepage. Inconsistent class-rank figures in different source documents were omitted pending clarification.
 - DARC's conference label is **KDD 2026**, following the author's correction on 2026-11-21.
+- DARC appears as the second selected-publication card. The current biography and experience cards omit Alibaba · Amap at the author's request; the historical classic-page backup remains a snapshot of the original website.
 
 ## Verification in the authoring environment
 
 Python structural/content/resource checks and JavaScript syntax checks passed. The installer was exercised against an isolated Jekyll fixture, including dry run, original-source preservation, repeated installation, and refusal of root-output collisions.
 
 After execution permissions were updated, real Chrome browser checks covered both name lines, hover cleanup, exact spring return, motion controls, operating-system reduced motion, light/dark rendering, touch feedback, vertical scrolling, publication filtering with the retained KDD 2026 correction, modal Escape dismissal, screen-reader heading semantics, and the no-JavaScript fallback. Responsive checks at 320, 375, 390, 768, 1024, and 1440 pixels confirmed no page or navigation overflow. Browser rendering was also inspected in desktop, mobile, hover, drag, and light-theme screenshots.
+
+The arXiv/official-logo update was checked in Chrome at 320, 390, 768, 1024, and 1440 pixel device widths. All four institution images and all nine selected-paper figures decoded successfully, the current page contains two experience cards and 18 publication rows, DARC is the second selected card with the KDD 2026 label, and its enlarged original figure closes with Escape. Desktop/mobile screenshots were reviewed, and source image checksums match both provenance manifests.
+
+Name canvases now paint the idle lettering immediately after each layout, including while off screen, and respond to window resize events. This prevents a cleared canvas from leaving the name blank or retaining desktop dimensions after a narrow-screen transition.

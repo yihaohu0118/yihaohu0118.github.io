@@ -67,6 +67,8 @@
       this.active = -1;
       this.frame.alpha = 0;
       this.frame.index = -1;
+      // Canvas resizing clears its pixels, including while the heading is off screen.
+      this.paint(0, performance.now(), null, false);
       this.element.classList.add('name-ready');
     }
 
@@ -317,7 +319,7 @@
   window.addEventListener('scroll', () => { if (!dragging) clearSelection(); }, {passive: true});
   document.addEventListener('visibilitychange', () => {
     if (document.hidden) { cancelAnimationFrame(frameId); frameId = 0; previousTime = 0; }
-    else wake();
+    else if (laidOut) modeChanged();
   });
   new IntersectionObserver(([entry]) => {
     visible = entry.isIntersecting;
@@ -328,6 +330,7 @@
   reducedMotion.addEventListener('change', modeChanged);
   const resize = new ResizeObserver(() => { if (laidOut) modeChanged(); });
   lines.forEach(line => resize.observe(line.element));
+  window.addEventListener('resize', () => { if (laidOut) modeChanged(); });
   const fontsReady = document.fonts ? document.fonts.ready : Promise.resolve();
   fontsReady.then(modeChanged);
 })();

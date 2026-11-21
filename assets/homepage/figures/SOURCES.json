@@ -1,0 +1,155 @@
+[
+  {
+    "publication": "trajectory2gym",
+    "image": "trajectory2gym-arxiv.webp",
+    "paper": "https://arxiv.org/abs/2610.33568",
+    "pdf": "https://arxiv.org/pdf/2610.33568v1",
+    "pdf_page": 4,
+    "figure": 2,
+    "crop_pdf_points": [
+      62,
+      42,
+      550,
+      276
+    ],
+    "pdf_sha256": "927a24beb338a98107115e7a18850d1afdba110188fd93c2cb1724885f1e7492",
+    "image_sha256": "17248988bfb028c88f3409d43494a1bdcf55211b93b9d7e0e085d61b4b5ecc04",
+    "method": "Screenshot rendered directly from the arXiv PDF; lossless WebP, no redrawing."
+  },
+  {
+    "publication": "viss",
+    "image": "viss-arxiv.webp",
+    "paper": "https://arxiv.org/abs/2610.34926",
+    "pdf": "https://arxiv.org/pdf/2610.34926v1",
+    "pdf_page": 5,
+    "figure": 2,
+    "crop_pdf_points": [
+      70,
+      70,
+      543,
+      314
+    ],
+    "pdf_sha256": "66e695fc211b235222dc6918c1393fce2681ed21bd8a8e06c5fff37ffa44da4d",
+    "image_sha256": "9083d03026b316ccac469c7c18ad45a7e11d928f1907be135e7fac6289fe94be",
+    "method": "Screenshot rendered directly from the arXiv PDF; lossless WebP, no redrawing."
+  },
+  {
+    "publication": "chronoreplay",
+    "image": "chronoreplay-arxiv.webp",
+    "paper": "https://arxiv.org/abs/2610.34283",
+    "pdf": "https://arxiv.org/pdf/2610.34283v1",
+    "pdf_page": 4,
+    "figure": 2,
+    "crop_pdf_points": [
+      70,
+      70,
+      542,
+      325
+    ],
+    "pdf_sha256": "46c119f29803bc764d61967fd3d87ea9dd0b34a3ce1e8a646f0c9570cab8a0c6",
+    "image_sha256": "3eb32b1ee8c71ac0abad9bf35ac3cb8ac09d787b38d7b4ae319118784f674931",
+    "method": "Screenshot rendered directly from the arXiv PDF; lossless WebP, no redrawing."
+  },
+  {
+    "publication": "seal",
+    "image": "seal-arxiv.webp",
+    "paper": "https://arxiv.org/abs/2605.24426",
+    "pdf": "https://arxiv.org/pdf/2605.24426v2",
+    "pdf_page": 4,
+    "figure": 2,
+    "crop_pdf_points": [
+      70,
+      77,
+      543,
+      295
+    ],
+    "pdf_sha256": "9c6cc0c80ab4093f07f8666e8abb0b1fe91f8b7883189e41b59af65a717102c7",
+    "image_sha256": "fea0be65c09d039f33ebe782ff64b63583f21b579c6ab74637e42cc8fa384f97",
+    "method": "Screenshot rendered directly from the arXiv PDF; lossless WebP, no redrawing."
+  },
+  {
+    "publication": "atlasva",
+    "image": "atlasva-arxiv.webp",
+    "paper": "https://arxiv.org/abs/2605.17933",
+    "pdf": "https://arxiv.org/pdf/2605.17933v1",
+    "pdf_page": 4,
+    "figure": 2,
+    "crop_pdf_points": [
+      70,
+      77,
+      542,
+      355
+    ],
+    "pdf_sha256": "b820fd463aeaecc95d4b93972551ec0fb45d57769f90a7202cdd59f23e481e51",
+    "image_sha256": "915945981e92e58325e7b1b2d5b88231b3b8e21cabfcb08aacdc1e5a4f9e2d11",
+    "method": "Screenshot rendered directly from the arXiv PDF; lossless WebP, no redrawing."
+  },
+  {
+    "publication": "omnivideo",
+    "image": "omnivideo-arxiv.webp",
+    "paper": "https://arxiv.org/abs/2602.05847",
+    "pdf": "https://arxiv.org/pdf/2602.05847v2",
+    "pdf_page": 3,
+    "figure": 2,
+    "crop_pdf_points": [
+      55,
+      62,
+      542,
+      343
+    ],
+    "pdf_sha256": "b183cdb64f1fd671586e11569956286cbaec1ce4925db3fa1f854d45bf1361c7",
+    "image_sha256": "5cb25b0eb1eceafd02e31609f16aad621b4802eff9f12f89a2437af7ee3672e2",
+    "method": "Screenshot rendered directly from the arXiv PDF; lossless WebP, no redrawing."
+  },
+  {
+    "publication": "cogsenet",
+    "image": "cogsenet-arxiv.webp",
+    "paper": "https://arxiv.org/abs/2606.30030",
+    "pdf": "https://arxiv.org/pdf/2606.30030v1",
+    "pdf_page": 5,
+    "figure": 2,
+    "crop_pdf_points": [
+      133,
+      114,
+      483,
+      325
+    ],
+    "pdf_sha256": "50267cb6f3af42a3cfcb75583bf58835fc65a4f103c2da693983a79ab145f337",
+    "image_sha256": "4afa6f33922641f92cca7056e00c7ff37b115c01584431c309c6708d87dc41ca",
+    "method": "Screenshot rendered directly from the arXiv PDF; lossless WebP, no redrawing."
+  },
+  {
+    "publication": "dual-memory",
+    "image": "dual-memory-arxiv.webp",
+    "paper": "https://arxiv.org/abs/2602.00471",
+    "pdf": "https://arxiv.org/pdf/2602.00471v2",
+    "pdf_page": 5,
+    "figure": 4,
+    "crop_pdf_points": [
+      54,
+      65,
+      543,
+      291
+    ],
+    "pdf_sha256": "364f81641944a69bb1a725cd90053e4c20ee8839faef00c9b34f3a2c8e13964f",
+    "image_sha256": "1f8e509ecb6642d0a60bea1994b8237baafc48c1f7f9b177445f73436f03bfd7",
+    "method": "Screenshot rendered directly from the arXiv PDF; lossless WebP, no redrawing."
+  },
+  {
+    "publication": "darc",
+    "image": "darc-arxiv.webp",
+    "paper": "https://arxiv.org/abs/2608.11772",
+    "pdf": "https://arxiv.org/pdf/2608.11772v1",
+    "pdf_page": 3,
+    "figure": 1,
+    "crop_pdf_points": [
+      62,
+      44,
+      550,
+      238
+    ],
+    "pdf_sha256": "6c42ed2cfceb960b48991e9b2381af5d8d1b1bdce08efe70e2d9a926f22551d4",
+    "image_sha256": "703f25825f0a6a5d7297e2e6fa6c9f91b8743577cfbd674f65cd46420c7660ac",
+    "method": "Screenshot rendered directly from the arXiv PDF; lossless WebP, no redrawing."
+  }
+]

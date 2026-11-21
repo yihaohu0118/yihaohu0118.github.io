@@ -111,6 +111,7 @@
       "degree": "Computer Science",
       "date": "2022 — 2026",
       "detail": "Undergraduate · Hainan, China",
+      "logo": "assets/homepage/logos/hainan.png",
       "short": "HNU"
     }
   ],
@@ -121,6 +122,7 @@
       "date": "2026.03 — Present",
       "detail": "Agentic learning & tool-use agents",
       "mentors": "Tao Lin, Zhihao Wen, Wei Wu",
+      "logo": "assets/homepage/logos/ant.png",
       "short": "ANT",
       "logo_class": "ant"
     },
@@ -130,16 +132,9 @@
       "date": "2025.10 — 2026.03",
       "detail": "Native multimodal large language models",
       "mentors": "Manyuan Zhang",
+      "logo": "assets/homepage/logos/meituan.png",
       "short": "美团",
       "logo_class": "meituan"
-    },
-    {
-      "company": "Alibaba · Amap",
-      "role": "Research Intern",
-      "date": "Previous",
-      "detail": "AI agents & LLM alignment",
-      "short": "阿里",
-      "logo_class": "alibaba"
     }
   ],
   "publications": [
@@ -152,11 +147,28 @@
       "year": 2026,
       "category": "agents",
       "selected": true,
-      "image": "assets/homepage/figures/trajectory2gym.webp",
+      "image": "assets/homepage/figures/trajectory2gym-arxiv.webp",
       "description": "Constructing executable interactions with compositional coverage and decision-grounded supervision for tool-use agents.",
       "paper": "https://arxiv.org/abs/2610.33568",
       "code": "https://github.com/yihaohu0118/Trajectory2Gym",
-      "project": "https://yihaohu0118.github.io/Trajectory2Gym/"
+      "project": "https://yihaohu0118.github.io/Trajectory2Gym/",
+      "image_source": "https://arxiv.org/pdf/2610.33568v1",
+      "image_figure": 2
+    },
+    {
+      "id": "darc",
+      "short": "DARC",
+      "title": "Diagnosis Before Recovery: Turning Agent Failures into Selective Self-Correction",
+      "authors": "Pan Wang, Yihao Hu, Hang Wang, Zirui Lv, Xin Zhang, Jianshe Li, Jiang-Ming Yang, Wei Wu, Yongqi Tong",
+      "venue": "KDD 2026",
+      "year": 2026,
+      "category": "agents",
+      "image": "assets/homepage/figures/darc-arxiv.webp",
+      "paper": "https://arxiv.org/abs/2608.11772",
+      "selected": true,
+      "description": "Diagnosing task-family failure modes before choosing a compact, verifier-guided recovery policy for more reliable tool-use agents.",
+      "image_source": "https://arxiv.org/pdf/2608.11772v1",
+      "image_figure": 1
     },
     {
       "id": "viss",
@@ -167,11 +179,13 @@
       "year": 2026,
       "category": "multimodal",
       "selected": true,
-      "image": "assets/homepage/figures/viss.svg",
+      "image": "assets/homepage/figures/viss-arxiv.webp",
       "description": "Separating what a video model learns to preserve from the causal evidence it acquires at inference time.",
       "paper": "https://arxiv.org/abs/2610.34926",
       "code": "https://github.com/yihaohu0118/ViSS",
-      "project": "https://yihaohu0118.github.io/ViSS/"
+      "project": "https://yihaohu0118.github.io/ViSS/",
+      "image_source": "https://arxiv.org/pdf/2610.34926v1",
+      "image_figure": 2
     },
     {
       "id": "chronoreplay",
@@ -182,11 +196,13 @@
       "year": 2026,
       "category": "multimodal",
       "selected": true,
-      "image": "assets/homepage/figures/chronoreplay.webp",
+      "image": "assets/homepage/figures/chronoreplay-arxiv.webp",
       "description": "Chronological replay of complementary spatial supervision for categorical, metric, and temporal reasoning.",
       "paper": "https://arxiv.org/abs/2610.34283",
       "code": "https://github.com/yihaohu0118/ChronoReplay",
-      "project": "https://yihaohu0118.github.io/ChronoReplay/"
+      "project": "https://yihaohu0118.github.io/ChronoReplay/",
+      "image_source": "https://arxiv.org/pdf/2610.34283v1",
+      "image_figure": 2
     },
     {
       "id": "seal",
@@ -197,11 +213,13 @@
       "year": 2026,
       "category": "agents",
       "selected": true,
-      "image": "assets/homepage/figures/seal.webp",
+      "image": "assets/homepage/figures/seal-arxiv.webp",
       "description": "Using verifier-grounded failure diagnoses to coordinate agent policy learning and adaptation of the learning environment.",
       "paper": "https://arxiv.org/abs/2605.24426",
       "code": "https://github.com/yihaohu0118/SEAL",
-      "project": "https://yihaohu0118.github.io/SEAL/"
+      "project": "https://yihaohu0118.github.io/SEAL/",
+      "image_source": "https://arxiv.org/pdf/2605.24426v2",
+      "image_figure": 2
     },
     {
       "id": "atlasva",
@@ -212,11 +230,13 @@
       "year": 2026,
       "category": "agents",
       "selected": true,
-      "image": "assets/homepage/figures/atlasva.webp",
+      "image": "assets/homepage/figures/atlasva-arxiv.webp",
       "description": "Keeping experience visually grounded through spatial heatmaps, visual exemplars, and reusable symbolic skills.",
       "paper": "https://arxiv.org/abs/2605.17933",
       "code": "https://github.com/wangpan-ustc/AtlasVA",
-      "project": "https://wangpan-ustc.github.io/AtlasVA/"
+      "project": "https://wangpan-ustc.github.io/AtlasVA/",
+      "image_source": "https://arxiv.org/pdf/2605.17933v1",
+      "image_figure": 2
     },
     {
       "id": "omnivideo",
@@ -227,9 +247,11 @@
       "year": 2026,
       "category": "multimodal",
       "selected": true,
-      "image": "assets/homepage/figures/omnivideo.svg",
+      "image": "assets/homepage/figures/omnivideo-arxiv.webp",
       "description": "Query-intensive grounding and modality-attentive fusion for reasoning with complementary audio and visual cues.",
-      "paper": "https://arxiv.org/abs/2602.05847"
+      "paper": "https://arxiv.org/abs/2602.05847",
+      "image_source": "https://arxiv.org/pdf/2602.05847v2",
+      "image_figure": 2
     },
     {
       "id": "cogsenet",
@@ -240,9 +262,11 @@
       "year": 2026,
       "category": "vision",
       "selected": true,
-      "image": "assets/homepage/figures/cogsenet.svg",
+      "image": "assets/homepage/figures/cogsenet-arxiv.webp",
       "description": "Semantic routing and explicit frequency fusion for recovering image structure under spatially varying blur.",
-      "paper": "https://arxiv.org/abs/2606.30030"
+      "paper": "https://arxiv.org/abs/2606.30030",
+      "image_source": "https://arxiv.org/pdf/2606.30030v1",
+      "image_figure": 2
     },
     {
       "id": "dual-memory",
@@ -253,9 +277,11 @@
       "year": 2026,
       "category": "multimodal",
       "selected": true,
-      "image": "assets/homepage/figures/dual-memory.svg",
+      "image": "assets/homepage/figures/dual-memory-arxiv.webp",
       "description": "Dual latent memories that retain perceptual and reasoning information during visual multi-agent collaboration.",
-      "paper": "https://arxiv.org/abs/2602.00471"
+      "paper": "https://arxiv.org/abs/2602.00471",
+      "image_source": "https://arxiv.org/pdf/2602.00471v2",
+      "image_figure": 4
     },
     {
       "id": "ultratext",
@@ -294,17 +320,6 @@
       "year": 2026,
       "category": "agents",
       "paper": "https://arxiv.org/abs/2608.17499"
-    },
-    {
-      "id": "darc",
-      "short": "DARC",
-      "title": "Diagnosis Before Recovery: Turning Agent Failures into Selective Self-Correction",
-      "authors": "Pan Wang, Yihao Hu, Hang Wang, Zirui Lv, Xin Zhang, Jianshe Li, Jiang-Ming Yang, Wei Wu, Yongqi Tong",
-      "venue": "KDD 2026",
-      "year": 2026,
-      "category": "agents",
-      "image": "assets/homepage/figures/darc.webp",
-      "paper": "https://arxiv.org/abs/2608.11772"
     },
     {
       "id": "cfsr",
@@ -389,5 +404,5 @@
       "date": "2025"
     }
   ],
-  "build_id": "20261121T031148Z-5b0789f7d8"
+  "build_id": "20261121T052604Z-bf2fef65cb"
 }

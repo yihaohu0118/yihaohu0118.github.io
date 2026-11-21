@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Hainan University",
+    "file": "hainan.png",
+    "official_page": "https://www.hainanu.edu.cn/info/1811/72621.htm",
+    "download": "https://www.hainanu.edu.cn/2024images/logo.svg",
+    "preparation": "Lossless crop of the shield from the PNG embedded in the official SVG; no drawing or recoloring.",
+    "crop_pixels": [
+      59,
+      22,
+      320,
+      344
+    ],
+    "sha256": "19d2929d6d767ca2ed47f58f1f56ee0c305d0d4dab939fa97aaaac4195bb18c5"
+  },
+  {
+    "name": "Meituan",
+    "file": "meituan.png",
+    "official_page": "https://www.meituan.com/media",
+    "download": "https://p0.meituan.net/smartvenus/519f64f1d51d8470ecad1f9b5fce83591696.png",
+    "preparation": "Unmodified PNG referenced by the official website.",
+    "sha256": "c993efde043b7aef26f7e33e986274be048679b88f34be92cd79276ed722adcc"
+  },
+  {
+    "name": "Ant Group",
+    "file": "ant.png",
+    "official_page": "https://www.antgroup.com/",
+    "download": "https://gw.alipayobjects.com/mdn/rms_27e257/afts/img/A*PLZaSZnCPAwAAAAAAAAAAAAAARQnAQ",
+    "preparation": "Unmodified blue logo PNG used by the official website header.",
+    "sha256": "67e25a97c4c0b76436f5dab588adf2cd72b859332fa83981a7c4d97581af09be"
+  }
+]
